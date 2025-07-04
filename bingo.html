@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPM Buzzword Bingo</title>
+    <style>
+      :root {
+        --color-nord-blue-1: #88c0d0;
+        --color-nord-blue-2: #81a1c1;
+        --color-nord-blue-3: #5e81ac;
+        --color-nord-purple: #b48ead;
+        --color-nord-orange: #d08770;
+        --space-50: #f8fafc;
+        --space-300: #cbd5e1;
+        --space-500: #64748b;
+        --space-600: #475569;
+        --space-700: #334155;
+        --space-800: #1e293b;
+        --space-900: #0f172a;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", system-ui, -apple-system, sans-serif;
+        background: linear-gradient(
+          135deg,
+          var(--space-900) 0%,
+          var(--space-800) 50%,
+          var(--space-700) 100%
+        );
+        color: var(--space-50);
+        margin: 0;
+        padding: 20px;
+        min-height: 100vh;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 800;
+        margin-bottom: 8px;
+        background: linear-gradient(
+          135deg,
+          var(--color-nord-blue-1),
+          var(--color-nord-blue-3),
+          var(--color-nord-purple)
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        letter-spacing: -0.02em;
+      }
+
+      .subtitle {
+        text-align: center;
+        color: var(--space-300);
+        font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 40px;
+      }
+
+      .day-section {
+        background: linear-gradient(
+          135deg,
+          var(--space-700) 0%,
+          var(--space-600) 100%
+        );
+        border: 1px solid var(--space-500);
+        border-radius: 16px;
+        padding: 32px;
+        margin-bottom: 32px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(8px);
+        position: relative;
+        transition: all 0.3s ease;
+      }
+
+      .day-section:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 32px 64px -12px rgba(0, 0, 0, 0.5);
+      }
+
+      .day-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--color-nord-blue-1);
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid var(--color-nord-blue-3);
+      }
+
+      .day-subtitle {
+        color: var(--space-300);
+        margin-bottom: 24px;
+        font-style: italic;
+        font-weight: 400;
+      }
+
+      .stats {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+        font-weight: 600;
+        color: var(--space-50);
+      }
+
+      .progress {
+        background: var(--space-800);
+        border-radius: 12px;
+        height: 8px;
+        margin-bottom: 24px;
+        overflow: hidden;
+        border: 1px solid var(--space-500);
+      }
+
+      .progress-bar {
+        background: linear-gradient(
+          90deg,
+          var(--color-nord-blue-2),
+          var(--color-nord-blue-1)
+        );
+        height: 100%;
+        width: 0%;
+        transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        border-radius: 12px;
+      }
+
+      .bingo-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+
+      .bingo-cell {
+        background: var(--space-800);
+        border: 2px solid var(--space-500);
+        border-radius: 12px;
+        padding: 16px 12px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        min-height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        color: var(--space-50);
+      }
+
+      .bingo-cell:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        border-color: var(--color-nord-blue-2);
+      }
+
+      .bingo-cell.clicked {
+        background: linear-gradient(
+          135deg,
+          var(--color-nord-blue-2) 0%,
+          var(--color-nord-blue-1) 100%
+        );
+        color: var(--space-900);
+        border-color: var(--color-nord-blue-1);
+        box-shadow: 0 8px 25px rgba(129, 161, 193, 0.4);
+      }
+
+      .bingo-cell.clicked:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 12px 30px rgba(129, 161, 193, 0.5);
+      }
+
+      .bingo-cell.free {
+        background: linear-gradient(
+          135deg,
+          var(--color-nord-orange) 0%,
+          #bf616a 100%
+        );
+        color: var(--space-50);
+        font-size: 1rem;
+        font-weight: 700;
+        border-color: var(--color-nord-orange);
+      }
+
+      .reset-btn {
+        background: linear-gradient(
+          135deg,
+          #bf616a 0%,
+          var(--color-nord-orange) 100%
+        );
+        color: var(--space-50);
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .reset-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(191, 97, 106, 0.4);
+      }
+
+      .emoji {
+        font-size: 2rem;
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 3rem;
+        }
+
+        .day-section {
+          padding: 24px;
+        }
+
+        .bingo-grid {
+          grid-template-columns: repeat(3, 1fr);
+          gap: 8px;
+        }
+
+        .bingo-cell {
+          font-size: 0.8rem;
+          padding: 12px 8px;
+          min-height: 70px;
+        }
+
+        .day-title {
+          font-size: 1.5rem;
+        }
+      }
+      .pomodoro-container {
+        background: var(--space-800);
+        border: 1px solid var(--space-500);
+        border-radius: 12px;
+        padding: 16px 24px;
+        margin-bottom: 30px;
+        text-align: center;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        font-size: 1.1rem;
+      }
+
+      .pomodoro-label {
+        color: var(--space-300);
+        font-weight: 600;
+      }
+
+      .pomodoro-time {
+        font-weight: 700;
+        color: var(--color-nord-blue-1);
+        font-size: 1.4rem;
+      }
+
+      .pomodoro-phase {
+        color: var(--space-300);
+        font-weight: 600;
+        min-width: 120px;
+      }
+
+      .pomodoro-controls {
+        display: flex;
+        gap: 8px;
+      }
+
+      .pomodoro-btn {
+        border: none;
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-weight: 600;
+      }
+
+      /* Start Button - Grün */
+      .pomodoro-btn.start {
+        background: linear-gradient(
+          135deg,
+          var(--color-nord-blue-2),
+          var(--color-nord-blue-3)
+        );
+        color: var(--space-50);
+      }
+
+      .pomodoro-btn.start:hover {
+        background: linear-gradient(
+          135deg,
+          var(--color-nord-blue-2),
+          var(--color-nord-blue-1)
+        );
+      }
+
+      /* Stop Button - Orange */
+      .pomodoro-btn.stop {
+        background: var(--space-600);
+        color: var(--space-50);
+      }
+
+      .pomodoro-btn.stop:hover {
+        background: var(--space-500);
+      }
+
+      /* Reset Button - Rot */
+      .pomodoro-btn.reset {
+        background: linear-gradient(
+          135deg,
+          #bf616a 0%,
+          var(--color-nord-orange) 100%
+        );
+        color: var(--space-50);
+      }
+
+      .pomodoro-btn.reset:hover {
+        background: linear-gradient(135deg, #a64c57 0%, #c2704a 100%);
+      }
+
+      /* Bingo Celebration Styles */
+      .bingo-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+      }
+
+      .bingo-overlay.show {
+        opacity: 1;
+        pointer-events: all;
+      }
+
+      .bingo-message {
+        background: linear-gradient(
+          135deg,
+          var(--color-nord-blue-1),
+          var(--color-nord-purple)
+        );
+        color: var(--space-900);
+        padding: 60px 80px;
+        border-radius: 30px;
+        font-size: 5rem;
+        font-weight: 900;
+        text-align: center;
+        transform: scale(0);
+        animation: bingoAppear 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+          forwards;
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+        letter-spacing: 0.1em;
+      }
+
+      @keyframes bingoAppear {
+        0% {
+          transform: scale(0) rotate(-180deg);
+          opacity: 0;
+        }
+        50% {
+          transform: scale(1.1) rotate(-10deg);
+        }
+        100% {
+          transform: scale(1) rotate(0deg);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pomodoro Timer -->
+
+    <!-- Bingo Celebration Overlay -->
+    <div class="bingo-overlay" id="bingo-overlay">
+      <div class="bingo-message">🎉 BINGO! 🎉</div>
+    </div>
+
+    <div class="container">
+      <div class="pomodoro-container">
+        <div class="pomodoro-time" id="pomodoro-time">25:00</div>
+        <div class="pomodoro-phase" id="pomodoro-phase">📖 LEARN 💻</div>
+        <div class="pomodoro-controls">
+          <div class="pomodoro-controls">
+            <button class="pomodoro-btn start" onclick="startPomodoro()">
+              Start
+            </button>
+            <button class="pomodoro-btn stop" onclick="stopPomodoro()">
+              Stop
+            </button>
+            <button class="pomodoro-btn reset" onclick="resetPomodoro()">
+              Reset
+            </button>
+          </div>
+        </div>
+      </div>
+      <h1>GPM Buzzword Bingo Challenge</h1>
+      <div class="subtitle">Level up while you learn! 🚀</div>
+
+      <!-- SATURDAY -->
+      <div class="day-section">
+        <h2 class="day-title">
+          <span class="emoji">🎮</span>
+          SATURDAY - Level 1: "The Basics"
+        </h2>
+
+        <div class="stats">
+          <span>Your Progress: <span id="sat-count">0</span>/24</span>
+          <button class="reset-btn" onclick="resetDay('saturday')">
+            Reset
+          </button>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" id="sat-progress"></div>
+        </div>
+
+        <div class="bingo-grid" id="saturday-grid">
+          <div class="bingo-cell">Stakeholder</div>
+          <div class="bingo-cell">Geschäftsprozess</div>
+          <div class="bingo-cell">Wertschöpfung</div>
+          <div class="bingo-cell">Kernprozess</div>
+          <div class="bingo-cell">Workflow</div>
+          <div class="bingo-cell">Optimierung</div>
+          <div class="bingo-cell">Effizienz</div>
+          <div class="bingo-cell">Prozesseigner</div>
+          <div class="bingo-cell">Messgröße</div>
+          <div class="bingo-cell">KI</div>
+          <div class="bingo-cell">Schnittstelle</div>
+          <div class="bingo-cell free">☕ FREE SPACE<br />KAFFEE-PAUSE ☕</div>
+          <div class="bingo-cell">Leistungserbringer</div>
+          <div class="bingo-cell">Durchlaufzeit</div>
+          <div class="bingo-cell">Tayloring</div>
+          <div class="bingo-cell">E-Akte</div>
+          <div class="bingo-cell">Funktionsbereich</div>
+          <div class="bingo-cell">Kundennutzen</div>
+          <div class="bingo-cell">Prozessorientierung</div>
+          <div class="bingo-cell">OZG</div>
+          <div class="bingo-cell">Standards</div>
+          <div class="bingo-cell">Kostenrechnung</div>
+          <div class="bingo-cell">Controlling</div>
+          <div class="bingo-cell">Beschaffungsprozess</div>
+          <div class="bingo-cell">Verwaltungsakt</div>
+        </div>
+      </div>
+
+      <!-- SUNDAY -->
+      <div class="day-section">
+        <h2 class="day-title">
+          <span class="emoji">⚔️</span>
+          SUNDAY - Level 2: "Boss Fight"
+        </h2>
+
+        <div class="stats">
+          <span>Your Progress: <span id="sun-count">0</span>/24</span>
+          <button class="reset-btn" onclick="resetDay('sunday')">Reset</button>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" id="sun-progress"></div>
+        </div>
+
+        <div class="bingo-grid" id="sunday-grid">
+          <div class="bingo-cell">Führungsprozesse</div>
+          <div class="bingo-cell">Ressourceneffizienz</div>
+          <div class="bingo-cell">Interoperabilität</div>
+          <div class="bingo-cell">Change Management</div>
+          <div class="bingo-cell">Prozessinstanz</div>
+          <div class="bingo-cell">Kundenfokus</div>
+          <div class="bingo-cell">Ist-Prozess</div>
+          <div class="bingo-cell">Workflowmanagementsystem</div>
+          <div class="bingo-cell">Prozesslandkarte</div>
+          <div class="bingo-cell">Minimalkriterien</div>
+          <div class="bingo-cell">Skalierbarkeit</div>
+          <div class="bingo-cell free">💀 FREE SPACE<br />BWL NERVT 💀</div>
+          <div class="bingo-cell">Handels-H</div>
+          <div class="bingo-cell">Verantwortlichkeiten</div>
+          <div class="bingo-cell">Organisationssystem</div>
+          <div class="bingo-cell">Service Blueprint</div>
+          <div class="bingo-cell">Gesetzgebung</div>
+          <div class="bingo-cell">Automatisierung</div>
+          <div class="bingo-cell">Organisationseinheit</div>
+          <div class="bingo-cell">Nichtlagerbarkeit</div>
+          <div class="bingo-cell">Formalisierungsgrad</div>
+          <div class="bingo-cell">Verwaltung</div>
+          <div class="bingo-cell">Konstitutive Merkmale</div>
+          <div class="bingo-cell">Teilprozesse</div>
+          <div class="bingo-cell">E-Government</div>
+        </div>
+      </div>
+
+      <!-- MONDAY -->
+      <div class="day-section">
+        <h2 class="day-title">
+          <span class="emoji">🚨</span>
+          MONDAY - Level 3: "Panic-Mode"
+        </h2>
+
+        <div class="stats">
+          <span>Your Progress: <span id="mon-count">0</span>/24</span>
+          <button class="reset-btn" onclick="resetDay('monday')">Reset</button>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" id="mon-progress"></div>
+        </div>
+
+        <div class="bingo-grid" id="monday-grid">
+          <div class="bingo-cell">Supportprozesse</div>
+          <div class="bingo-cell">Informationssystem</div>
+          <div class="bingo-cell">Geschäftsprozessschritt</div>
+          <div class="bingo-cell">Soll-Prozess</div>
+          <div class="bingo-cell">Prozessmodellierung</div>
+          <div class="bingo-cell">Workflowmanagement</div>
+          <div class="bingo-cell">Interdisziplinär</div>
+          <div class="bingo-cell">Elementarer Geschäftsprozessschritt</div>
+          <div class="bingo-cell">Wertschöpfungskette</div>
+          <div class="bingo-cell">Ad-Hoc-Workflow</div>
+          <div class="bingo-cell free">
+            🔥 FREE SPACE<br />FAST GESCHAFFT! 🔥
+          </div>
+          <div class="bingo-cell">Wohlstrukturierte Produktionsprozesse</div>
+          <div class="bingo-cell">Wiederholbarkeit</div>
+          <div class="bingo-cell">eEPK</div>
+          <div class="bingo-cell">Ablaufsicht</div>
+          <div class="bingo-cell">ESG-Kriterien</div>
+          <div class="bingo-cell">Messparameter</div>
+          <div class="bingo-cell">Prozessreife</div>
+          <div class="bingo-cell">Flow</div>
+          <div class="bingo-cell">Steuerungsprinzip</div>
+          <div class="bingo-cell">Referenzmodell</div>
+          <div class="bingo-cell">Y-CIM-Modell</div>
+          <div class="bingo-cell">Qualitätskennzahlen</div>
+          <div class="bingo-cell">Prozessrahmenbedingungen</div>
+          <div class="bingo-cell">Dienstleistung</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let pomodoroTimer = null;
+      let pomodoroSeconds = 25 * 60; // 25 minutes
+      let isLearning = true;
+
+      function updatePomodoroDisplay() {
+        const minutes = Math.floor(pomodoroSeconds / 60);
+        const seconds = pomodoroSeconds % 60;
+        document.getElementById("pomodoro-time").textContent = `${minutes
+          .toString()
+          .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+      }
+
+      function startPomodoro() {
+        if (pomodoroTimer) return; // Already running
+
+        pomodoroTimer = setInterval(() => {
+          pomodoroSeconds--;
+          updatePomodoroDisplay();
+
+          if (pomodoroSeconds <= 0) {
+            // Switch phases
+            if (isLearning) {
+              pomodoroSeconds = 5 * 60; // 5 min break
+              isLearning = false;
+              document.getElementById("pomodoro-phase").textContent =
+                "☕ PAUSE (don't forget to check your bingo!)";
+            } else {
+              pomodoroSeconds = 25 * 60; // 25 min learn
+              isLearning = true;
+              document.getElementById("pomodoro-phase").textContent = "LEARN";
+            }
+            updatePomodoroDisplay();
+          }
+        }, 1000);
+      }
+
+      function resetPomodoro() {
+        if (pomodoroTimer) {
+          clearInterval(pomodoroTimer);
+          pomodoroTimer = null;
+        }
+        pomodoroSeconds = 25 * 60;
+        isLearning = true;
+        document.getElementById("pomodoro-phase").textContent = "LEARN";
+        updatePomodoroDisplay();
+      }
+
+      function stopPomodoro() {
+        if (pomodoroTimer) {
+          clearInterval(pomodoroTimer);
+          pomodoroTimer = null;
+        }
+      }
+
+      // Check for Bingo (5 in a row, column, or diagonal)
+      function checkBingo(grid) {
+        const cells = grid.querySelectorAll(".bingo-cell");
+        const clicked = [];
+
+        // Create 5x5 matrix of clicked status
+        for (let i = 0; i < 25; i++) {
+          clicked[i] =
+            cells[i].classList.contains("clicked") ||
+            cells[i].classList.contains("free");
+        }
+
+        // Check rows
+        for (let row = 0; row < 5; row++) {
+          let count = 0;
+          for (let col = 0; col < 5; col++) {
+            if (clicked[row * 5 + col]) count++;
+          }
+          if (count === 5) return true;
+        }
+
+        // Check columns
+        for (let col = 0; col < 5; col++) {
+          let count = 0;
+          for (let row = 0; row < 5; row++) {
+            if (clicked[row * 5 + col]) count++;
+          }
+          if (count === 5) return true;
+        }
+
+        // Check diagonals
+        let diagonal1 = 0,
+          diagonal2 = 0;
+        for (let i = 0; i < 5; i++) {
+          if (clicked[i * 5 + i]) diagonal1++;
+          if (clicked[i * 5 + (4 - i)]) diagonal2++;
+        }
+        if (diagonal1 === 5 || diagonal2 === 5) return true;
+
+        return false;
+      }
+
+      // Show Bingo celebration
+      function showBingo() {
+        const overlay = document.getElementById("bingo-overlay");
+        overlay.classList.add("show");
+
+        // Hide after 5 seconds
+        setTimeout(() => {
+          overlay.classList.remove("show");
+        }, 5000);
+      }
+
+      // Save/Load Progress with localStorage
+      function saveProgress() {
+        const progress = {};
+        ["saturday", "sunday", "monday"].forEach((day) => {
+          const grid = document.getElementById(`${day}-grid`);
+          const clickedCells = [];
+          grid
+            .querySelectorAll(".bingo-cell:not(.free)")
+            .forEach((cell, index) => {
+              if (cell.classList.contains("clicked")) {
+                clickedCells.push(index);
+              }
+            });
+          progress[day] = clickedCells;
+        });
+        localStorage.setItem("bingo-progress", JSON.stringify(progress));
+      }
+
+      function loadProgress() {
+        const saved = localStorage.getItem("bingo-progress");
+        if (saved) {
+          const progress = JSON.parse(saved);
+          ["saturday", "sunday", "monday"].forEach((day) => {
+            if (progress[day]) {
+              const grid = document.getElementById(`${day}-grid`);
+              const cells = grid.querySelectorAll(".bingo-cell:not(.free)");
+              progress[day].forEach((index) => {
+                if (cells[index]) {
+                  cells[index].classList.add("clicked");
+                }
+              });
+              updateProgress(day.slice(0, 3), progress[day].length, 24);
+            }
+          });
+        }
+      }
+
+      function updateProgress(day, count, total) {
+        const percentage = (count / total) * 100;
+        document.getElementById(`${day}-progress`).style.width =
+          percentage + "%";
+        document.getElementById(`${day}-count`).textContent = count;
+      }
+
+      function resetDay(day) {
+        const grid = document.getElementById(`${day}-grid`);
+        const cells = grid.querySelectorAll(".bingo-cell:not(.free)");
+        cells.forEach((cell) => {
+          cell.classList.remove("clicked");
+        });
+        updateProgress(day.slice(0, 3), 0, 25);
+        saveProgress();
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const days = ["saturday", "sunday", "monday"];
+        const prefixes = ["sat", "sun", "mon"];
+
+        days.forEach((day, index) => {
+          const grid = document.getElementById(`${day}-grid`);
+          const cells = grid.querySelectorAll(".bingo-cell:not(.free)");
+
+          cells.forEach((cell) => {
+            cell.addEventListener("click", function () {
+              this.classList.toggle("clicked");
+              const clickedCount = grid.querySelectorAll(
+                ".bingo-cell.clicked"
+              ).length;
+              updateProgress(prefixes[index], clickedCount, 25);
+              saveProgress(); // Auto-save nach jedem Klick
+
+              // Check for Bingo after each click
+              if (checkBingo(grid)) {
+                setTimeout(() => {
+                  showBingo();
+                }, 200); // Small delay for visual feedback
+              }
+
+              // Visual click feedback
+              if (this.classList.contains("clicked")) {
+                this.style.transform = "scale(1.1)";
+                setTimeout(() => {
+                  this.style.transform = "";
+                }, 150);
+              }
+            });
+          });
+        });
+
+        // Load saved progress on page load
+        loadProgress();
+      });
+    </script>
+  </body>
+</html>
