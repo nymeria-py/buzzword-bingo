@@ -754,15 +754,12 @@
         saveData();
 
         // Clear form
-        document.getElementById("card-front").value = "";
-        document.getElementById("card-back").value = "";
+        document.getElementById("add-card-front").value = "";
+        document.getElementById("add-card-back").value = "";
 
-        // Go back to study and show new card
-        showPage("study");
-        const stackCards = cards.filter((c) => stack.cardIds.includes(c.id));
-        currentCardIndex = stackCards.length - 1; // Show the new card
-        displayCurrentCard();
         renderStacks(); // Update card count
+
+        document.getElementById("add-card-front").focus();
       }
 
       // Keyboard shortcuts
