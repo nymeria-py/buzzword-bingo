@@ -1,0 +1,1387 @@
+{
+  "stacks": [
+    {
+      "id": 1,
+      "title": "GPM-1",
+      "cardIds": [
+        1,
+        1751709339787,
+        1751708425687,
+        1751705787994,
+        1751707530003,
+        1751709581536,
+        1751709826378,
+        1751710092703,
+        1751710308966,
+        1751710432184,
+        1751710667367,
+        1751710895125,
+        1751711009124,
+        1751711706544,
+        1751711845158,
+        1751712327430,
+        1751712432913,
+        1751712487147,
+        1751712733923,
+        1751713110577,
+        1751713173982,
+        1751713249056,
+        1751713362140,
+        1751713654671,
+        1751715306442,
+        1751715408548,
+        1751715954108,
+        1751716104844,
+        1751718432386,
+        1751718937361,
+        1751719089802,
+        1751719673690,
+        1751735793802,
+        1751785937310,
+        1751786066064
+      ]
+    },
+    {
+      "id": 1751711593329,
+      "title": "GPM-2",
+      "cardIds": [
+        1751725203018,
+        1751725362567,
+        1751725499077,
+        1751725841785,
+        1751726180398,
+        1751726238354,
+        1751726427275,
+        1751726918842,
+        1751727162818,
+        1751727709157,
+        1751728069644,
+        1751728191290,
+        1751728314915,
+        1751728444753,
+        1751728776410,
+        1751729264480,
+        1751729608654,
+        1751729701438,
+        1751731171871,
+        1751792392386
+      ]
+    },
+    {
+      "id": 1751711601241,
+      "title": "GPM-3",
+      "cardIds": [
+        1751733114967,
+        1751734240102,
+        1751734660886,
+        1751734797918,
+        1751734929756,
+        1751736285379,
+        1751736606504,
+        1751736749531,
+        1751736971116,
+        1751738334833,
+        1751738474462,
+        1751738752031,
+        1751739056669,
+        1751739386872,
+        1751739831235,
+        1751740243174,
+        1751740404196,
+        1751740683262,
+        1751740767868,
+        1751791687980,
+        1751791955566,
+        1751796267556
+      ]
+    },
+    {
+      "id": 1751711610023,
+      "title": "GPM-4",
+      "cardIds": [
+        1751794370003,
+        1751794680828,
+        1751795002358,
+        1751795118350,
+        1751795195000,
+        1751795263562,
+        1751795425964,
+        1751795483969,
+        1751795724538,
+        1751795860676,
+        1751795916787,
+        1751796002119,
+        1751797021063,
+        1751797193844,
+        1751797366678,
+        1751797787401,
+        1751798606305,
+        1751798893189,
+        1751803997069,
+        1751804424572,
+        1751805473836,
+        1751805560036,
+        1751806243669,
+        1751806358007,
+        1751806714938,
+        1751806810706,
+        1751806887518,
+        1751806977305,
+        1751807029339,
+        1751807349335,
+        1751807624897,
+        1751807996607,
+        1751808614711,
+        1751809000383
+      ]
+    },
+    {
+      "id": 1751711618416,
+      "title": "GPM-5",
+      "cardIds": [
+        1751810966056,
+        1751811360482,
+        1751811868482,
+        1751812464623,
+        1751812570746,
+        1751812747770,
+        1751813404272,
+        1751816278834,
+        1751816469829,
+        1751816692752,
+        1751817163680,
+        1751817251877,
+        1751817371890,
+        1751817630968,
+        1751817886935,
+        1751818283886,
+        1751818426939,
+        1751818956489,
+        1751819359152,
+        1751819568278,
+        1751819856893,
+        1751819904061,
+        1751820036282,
+        1751820364254,
+        1751820583509,
+        1751820690630,
+        1751820845996,
+        1751821128252,
+        1751821279370,
+        1751821365651,
+        1751821458694,
+        1751821615984
+      ]
+    },
+    {
+      "id": 1751711633943,
+      "title": "GPM-Ü",
+      "cardIds": [
+        1751786176221,
+        1751786233352,
+        1751786352824,
+        1751786518013,
+        1751786773349,
+        1751787311709,
+        1751787664673,
+        1751787888006,
+        1751787954979,
+        1751788159199,
+        1751788277202,
+        1751788565554,
+        1751788960827,
+        1751789072950,
+        1751789303105,
+        1751789496317,
+        1751789614600,
+        1751789851401,
+        1751790376422,
+        1751790648501,
+        1751791153160,
+        1751791491217,
+        1751792806783,
+        1751810076900,
+        1751810375018
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "front": "Nenne 6 Klassifizierungsmöglichkeiten von Prozessen:",
+      "back": "1. Strukturierungs-(bzw. Formalisierungsgrad) </br> 2. Automatisierungsgrad </br> 3. Funktionsbereich </br> 4. Reichweite </br> 5. Effizienz </br> 6. Fallzahl",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751705787994,
+      "front": "Nenne Arten von Prozessen nach\n1. Umfang\n2. Art",
+      "back": "1. Geschäftsprozess, Teilprozess, Geschäftsprozessschritt, Elementarer Geschäftsprozessschritt\n2. Führungsprozesse, Kernprozesse, Supportprozesse",
+      "stackId": 1,
+      "status": true
+    },
+    {
+      "id": 1751707530003,
+      "front": "Was sind Kernprozesse?",
+      "back": "- Prozesse mit direktem Bezug zum Leistungsauftrag einer Organisation \n=> Kundennutzen!\n- = operative Leistungserbringungsprozesse\n- wesentliches Merkmal: Schnittstelle zu Externen",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751708425687,
+      "front": "Definiere Geschäftsprozess:",
+      "back": "= Zusammengehörende Folge von Funktionen/Aktivitäten mit dem Ziel eine Leistung bzw. einen Wert zu erschaffen, der von einem Stakeholder (intern oder extern) angefordert bzw. abgenommen wird.\n= Zeitlogische Abfolge von Aufgaben, die arbeitsteilig ausgeführt werden.",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751709339787,
+      "front": "Was ist der Unterschied zwischen einem Geschäftsprozessschritt und einem elementaren Geschäftsprozessschritt?",
+      "back": "- Ein GP-Schritt unterteilt den Prozess = Aktivität\n- kann arbeitsteilig sein und unterteilt werden\n- Ein Elementare GP-Schritt ist die kleinste Einheit, die direkte Aufgabenerfüllung nicht arbeitsteilig\nBeispiel: \nGP = Kuchen backen\nGP-Schritt = Pizza belegen\nElementarer GP-Schritt = Käse draufstreuen",
+      "stackId": 1,
+      "status": true
+    },
+    {
+      "id": 1751709581536,
+      "front": "Was sind Führungsprozesse? Erkläre strategische vs. operative Führungsprozesse:",
+      "back": "- Planungs-, Steuerungs- und Kontrollleistungen\n- strategisch = Visions-, Leitbild- und Strategieentwicklung\n(z.B. Digitalisierungsstrategie entwickeln)\n- operativ = strategische Ziele operationalisieren (umsetzbar machen)\n(z.B. Quartalsziele für Einführung der E-Akte festlegen",
+      "stackId": 1,
+      "status": true
+    },
+    {
+      "id": 1751709826378,
+      "front": "Was sind Supportprozesse? Erkäre prozessbezogene vs. prozessübergreifende Supportprozesse:",
+      "back": "= interne Dienstleistungen\n- aus Kundensicht nicht wertschöpfende Tätigkeiten\n- prozessbezogen: innerhalb von Kernprozessen (z.B. Zahlungsabwicklung)\n- prozessübergreifende Supportprozesse:\nstellen Rahmenbedingungen für Handlungsfähigkeit der Organisation als Ganze sicher & stellen notwendige Ressourcen für Führungs- und Kernprozesse bereit \n(z.B. Personalwesen)",
+      "stackId": 1,
+      "status": true
+    },
+    {
+      "id": 1751710092703,
+      "front": "Was ist Tayloring und was hat das mit Prozessorientierung zu tun?",
+      "back": "= Funktionale Gliederung von Unternehmen flexibel anpassen, um Prozesse zu optimieren und Schnittstellen zwischen Funktionseinheiten (Abteilungen) zu definieren\n- ca. seit den 90ern, Problem ist das Funktionsbereiche zu sehr isoliert sind \n- in der Praxis gibt es Mischformen, rein prozessorientiert ist sehr selten",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751710308966,
+      "front": "Was sind die 10 Bestandteile eines Geschäftsprozesses?",
+      "back": "1. Auftraggeber\n2. Auslöser/Input (definierter Start)\n3. Prozesseigner \n4. Steuerungsmechanismen (Ablaufsteuerung durch Akteure und Regeln)\n5. Abfolge an Funktionen/Aktivitäten (& optional: Entscheidungen)\n6. Leistungserbringer (z.B. Mitarbeiter XY)\n7. Ressourcen (Sachmittel, Daten)\n8. Ziel- und Messgrößen\n9. Leistung/Ergebnis (definiertes Ende, nutzenstiftend!)\n10. Leistungsempfänger",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751710432184,
+      "front": "Was sind Eigenschaften eines Geschäftprozesses?",
+      "back": "- wiederholend, regelmäßig\n- generieren Kundennutzen\n- klarer Prozessfluss\n- klar definierte Start- und Endereignisse\n- können klassifiziert werden (Kern, Support...)\n- haben Akteure und sind arbeitsteilig\n- Ablaufsteuerung durch Akteure und Regeln",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751710667367,
+      "front": "Vergleiche Prozess- vs. Funktionsorientierung: (Kurz)",
+      "back": "Prozessorientiert: am Kundennutzen ausgerichtet (Fokus auf Leistungen)\nFunktionsorientiert: an internen Strukturen ausgerichtet (Fokus auf isolierte Bereiche/ Abteilungen)",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751710895125,
+      "front": "Nenne Vorteile von Prozessorientierung:",
+      "back": "Vorteile:\n- Minimierung der Durchlaufzeit\n- Bestandssenkung\n- Verbesserung der Termintreue\n- Prozessorientierte Kostenrechnung\n- Kundenorientierte Produkte\n- Verbesserte Prozessqualität\n- Abflachen der Hierarchien\n- keine Schnittstellen im Auftragsfluss\n- hohe Prozesseffizienz",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751711009124,
+      "front": "Nenne Nachteile von Prozessorientierung:",
+      "back": "- niedrige Ressourceneffizienz\n- keine Spezialisierung\n- evtl. schlechtere Produktqualität",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751711706544,
+      "front": "Nenne Vorteile von Funktionsorientierung:",
+      "back": "- optimale Auslastung der Kapazitäten\n- hohe Ressourceneffizienz\n- Verbesserung der Produktqualität\n- Beschleunigung der Bearbeitungszeit innerhalb der Abteilungen",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751711845158,
+      "front": "Nenne Nachteile von Funktionsorientierung:",
+      "back": "- Schnittstellen im Auftragsfluss\n- niedrige Prozesseffizienz\n- Erhöhung der Durchlaufzeit\n- Schlechtere Termintreue\n- Produkte weniger kundenorientiert",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751712327430,
+      "front": "Definiere Workflow",
+      "back": "= informationstechnische Realisierung eines Geschäftsprozesses\n\n= eine (zum Teil) automatisiert ablaufende Gesamtheit von Aktivitäten\n- von Workflow-Management-System gesteuert\n- bezieht sich auf Teile eines Geschäftsprozesses\n- besteht aus Abschnitten (Sub-Workflows)",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751712432913,
+      "front": "Vergleiche GP & WF anhand ihres Ziels:",
+      "back": "GP: Analyse und Gestaltung von Arbeitsabläufen im Sinne gegebener (strategischer) Ziele\nWF: Spezifikation von technischen Ausführungen von Arbeitsabläufen",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751712487147,
+      "front": "Vergleiche GP & WF anhand ihrer Gestaltungsebene:",
+      "back": "GP: Konzeptionelle Ebene mit Verbindung zur Geschäftsstrategie\nWF: Operative Ebene mit Verbindung zu unterstützender Technologie",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751712733923,
+      "front": "Vergleiche GP & WF anhand ihres Detaillierungsgrads:",
+      "back": "GP: Grober Rahmen, WAS wird gemacht, Fokus auf Ablauflogik\nWF: Konkrete Arbeitsschritte, WIE wird es gemacht, Fokus auf technische Umsetzung",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751713110577,
+      "front": "Nenne verschiedene Workflow-Typen - 3 nach Strukturierungsgrad und 3 nach Automatisierungsgrad:",
+      "back": "Strukturierungsgrad:\n1) Allgemeiner Workflow\n2) Fallbezogener Workflow\n3) Ad hoc Workflow\n\nAutomatisierungsgrad:\n1) Automatisiert 2) Teilautomatisiert 3) Freier Workflow",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751713173982,
+      "front": "Beschreibe einen Allgemeinen Workflow:",
+      "back": "- vollständig strukturierbare Arbeitsabläufe\n- hoher Anteil an repetitiven Elementen\n- keine Freiheitsgrade für den Bearbeiter hinsichtlich Ablaufsteuerung\n- Arbeitsschritte im voraus definierbar",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751713249056,
+      "front": "Beschreibe Fallbezogene Workflows:",
+      "back": "- nicht vollständig strukturierbare Arbeitsabläufe\n- nur teilweise repetitive Elemente\n- Bearbeiter hat einige Freiheitsgrade bezüglich der Ablaufsteuerung\n- Arbeitsschritte nur teilweise im voraus definierbar",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751713362140,
+      "front": "Beschreibe einen Ad hoc Workflow",
+      "back": "- nicht strukturierte Arbeitsabläufe\n- kaum repetitive Anteile\n- sehr hohe Freiheitsgrade für Bearbeiter bezüglich Ablaufsteuerung\n- Arbeitsschritte im voraus NICHT definierbar",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751713654671,
+      "front": "Definiere: Workflow-Management-System",
+      "back": "= anwendungsunabhängiges Softwaresystem zur Ablaufsteuerung\n- universell einsetzbar, flexibel anpassbar\n- kann für verschiedene Anwendungsbereiche konfiguriert werden\n\n- Modellierung, Ausführung und Monitoring von Workflows\n- Interpretation von (semi-)formalen Workflow-Spezifikationen\n- Veranlassung der Ausführung von Prozessschritten durch dafür vorgesehene Aufgabenträger \n+ ggbf. Bereitstellung von Anweisungen, Werkzeugen, Daten usw.",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751715306442,
+      "front": "Was ist der Unterschied zwischen Build-Time und Run-Time bei Workflow-Management-Systemen?",
+      "back": "Build-Time: Modellierung - Erstellung des Workflows\n\nRun-Time: Betrieb - Ausführung des Workflows\n- Workflow-Engine steuert Ablauf\n- Administrator überwacht System\n- Nutzer arbeitet mit Workflow-Clients\n(keine grafische Visualisierung)",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751715408548,
+      "front": "Was ist ein Workflow-Modell bzw. Schema vs. eine Workflow-Instanz?",
+      "back": "Das Modell ist der Blueprint, die Vorlage des Workflows, die Instanzen sind die konkreten Ausführungen des Workflows",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751715954108,
+      "front": "Nenne jeweils 2 Beispiele für allgemeine, fallbezogene und Ad hoc Workflows:",
+      "back": "Allgemein: Pizza bestellen, Klausur anmelden\nFallbezogen: Pasta kochen, Hausarbeit schreiben\nAd-Hoc: Resteverwertung, Spontane Gruppenbildung",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751716104844,
+      "front": "Weitere Beispiele für die drei verschiedenen Workflow-Typen, aber diesmal BWL-Zeug:",
+      "back": "Allgemein: Urlaubsantrag\n Fallbezogen: Kreditantrag bei Banken\n Ad-Hoc: Einladung zu spontanem Meeting, Investitionsantrag für Großunternehmen bearbeiten",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751718432386,
+      "front": "Nenne Merkmale von Prozessen, die besonders gut für Workflow-Management-Systeme geeignet sind:",
+      "back": "1) gut strukturiert (Automatisierbarkeit)\n2) hohe Fallzahl (Wirtschaftlichkeit)\n3) persistent",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751718937361,
+      "front": "Was ist ein Geschäftsprozess NICHT?",
+      "back": "1. nicht-wertschöpfende Tätigkeit (z.B. einmalige Fehlerbehebung)\n2. Projekte (einmalig, z.B. Bau eines Flughafens)\n3. Routineaufgaben (wenig umfangreiche, täglich wiederkehrende Aufgaben, z.B. Präsentation erstellen, Kaffee kochen)\n4. Leistungen/Produkte = Ergebnis des Prozesses, nicht Prozess selbst\n5. Prozessteilschritt",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751719089802,
+      "front": "Nenne Grundregeln von Prozessmodellierung:",
+      "back": "1. Nicht den Bezugspunkt wechseln\n2. Es sollten nicht alle möglichen Prozessvarianten mit einbezogen werden\n3. logische Benennung: Nomen + Verb\nObjekt der Verrichtung + Was damit passiert\nz.B. \"Bauantrag\" \"genehmigen\"",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751719673690,
+      "front": "Aus welchen Komponenten besteht ein Workflowmanagement-System?",
+      "back": "1. Modellierungs-Client (Workflow-Design)\n2. Workflow-Engine (Ablaufsteuerung)\n3. Workflow-Client (für Nutzer)\n4. Schnittstellen zu anderen Anwendungen\n5. Worflow-Engine-Administration-Client (für Admin)",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751725203018,
+      "front": "Was sind die Ziele des Geschäftsprozessmanagements?",
+      "back": "1. Klare Darstellung von Aufgaben und Schnittstellen (intern und extern)\n2. Durchlaufzeitenminimerung durch standardisierte Abläufe und Verantwortungen\n3. Einfache Anpassung von Prozessen an neue Rahmenbedingungen (Prozessoptimierung, organisatiorische Weiterentwicklung)\n4. Zertifizierungen durch Auditierungsinstitutionen (z.B. TÜV)\n5. Anforderungsgerechte Entwicklung von IT-Systemen\n6. Fokus auf Kundennutzen - keine isolierten Funktionbereiche, sondern Prozessfokus",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751725362567,
+      "front": "Was versteht man unter kontinuierlichem Prozessmanagement?",
+      "back": "Relevante Leistungsprozesse sollten ständig gesteuert, unterstützt und weiterentwickelt werden.\nProzessmodellierung (Leistungserstellung transparent machen) und Prozessoptimierung (Analyse und Verbesserung) als kontinuerliche Aufgaben",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751725499077,
+      "front": "Was umfasst Geschäftsprozessmanagement?",
+      "back": "1. Strategie (Vision, Ziele)\n2. Prozess (Modell, Methode, Tool)\n3. IT (Anwendungen, Standards)\n4. Mitarbeiter (Anforderungen, Motivation, Schulungen)\n5. Organisation (Struktur, Verantwortlichkeiten)\n=> Prozessmanagement-Projekte\n =>Change-Management, Anforderungserhebung",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751725841785,
+      "front": "Welche Rollen gibt es im Geschäftsprozessmanagement? Welche Aufgaben erfüllen sie?",
+      "back": "1. GPM-Projektleiter - Projektverantwortlicher\n2. Prozessberater - methodische Unterstützung\n!3. Chief Process Officer - Verantwortlich für Weiterentwicklung des unternehmensweiten GPM-Systems\n!4. Prozessmanager - Unterstützung des Prozesseigners bei Erhebung und Modellierung\n5. Prozessauditor - Prüfung\n!6. Prozesseigner - Verantwortung für Zielerreichung, Festlegung von Prozesszielen und Abstimmung mit Unternehmenszielen\n7. Prozessmitarbeitende - Aufgabendurchführung",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751726180398,
+      "front": "Wie unterscheiden sich die Rollen des Chief Process Officer, Prozessmanager und Prozesseigner voneinander?",
+      "back": "Chief Process Officer (CPO): Gesamtverantwortung für unternehmensweites GPM-System - Strategische Ebene, meist auch CIO\nProzessmanager: Unterstützung des Prozesseigners - Operative Ebene\nProzesseigner: Festlegung von Prozesszielen, End-to-End Verantwortung - Umsetzungsebene",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751726238354,
+      "front": "Welche Rollen sind in der Einführungsphase eines Prozesses, welche in der Umsetzungsphase relevant?",
+      "back": "Einführungsphase: GPM-Projektleiter, Prozessberater\nUmsetzungsphase: CPO, Prozessmanager, Prozesseigneer, Prozesauditor, Prozessmitarbeitende",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751726427275,
+      "front": "Was sind wesentliche Treiber für die wachsende Relevanz von Geschäftsprozessmanagement in der Industrie?",
+      "back": "1. Globalisierung und Wettbewerbsdruck (Komplexitätssteigerung)\n2. Digitalisierung und IT-Integration \n Prozesse müssen systematischer definiert werden\n3. Qualitätsmanagement-Standards\n4. Lean Manufacturing (Just in Time, Fokus auf Verschwendungsvermeidung)\n- Fachkräftemangel und demographischer Wandel\n5. Gestiegene Anforderungen von Kunden",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751726918842,
+      "front": "Wie hängen Ausführung, Gestaltung/Optimierung und Controlling miteinander zusammen? Stichwort: Kontinuerliches Prozessmanagement:",
+      "back": "1. Strategientwicklung - beeinflusst Soll-Prozess\n2. Soll-Prozess: Gestaltung/Optimierung von Prozessen\n3. Ist-Prozess: Einführung und Umsetzung von Prozessen - generiert Daten\n4. Controlling - Monitoring der Daten (Benchmarking, Performance-Messungen, Data Mining)\n5. führt wieder zu Optimierung & Gestaltung \n= fortwährender Prozess und Datenfluss = kontinuierliches GPM",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751727162818,
+      "front": "Was sind wesentliche Treiber für die wachsende Relevanz von Geschäftsprozessmanagement in der Verwaltung?",
+      "back": "- Transparenzforderungen und Bürgerdruck\n- Haushaltsknappheit\n- E-Government Intitiativen\n- New Public Management\n- Rechtliche Anforderungen (Compliance-Anforderungen, Dokumentationspflichten)\n- Fachkräftemangel und demographischer Wandel",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751727709157,
+      "front": "Beschreibe die Entwicklung des GPM in den 80ern und 90ern, was hat Lean-Manufacturing und integrative betriebliche Standardsoftware damit zu tun?",
+      "back": "- Schwerpunkt: Gestaltung und Optimierung standardisierbarer Abläufe mit hohen Fallzahlen (anfangs Fokus auf Produktionsprozesse, später Erweiterung auf weitere Untenehmensbereiche)\n- Steigerung der Effizienz (z.b. Toyota, Lean-Manufacturing mit Just-In-Time Prinzipien)\n- Einführung integrativer Standardsoftware (ab 80er: ERP-Systeme, ab 90er: DMS-Systeme) eng mit Einführung von GPM verbunden & beeinflussen sich gegenseitig \n- Integrative Informationssysteme erfordern umfassende Prozess- Daten- und Organisationskenntnisse, um Standardsoftware an Unternehmensstrukturen anzupassen",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751728069644,
+      "front": "Was ist Business Process Reengineering?",
+      "back": "= Analyse und Neugestaltung der Prozess- und Aufbauorganisation eines Unternehmen\n- Prozessorientierte Neuausrichtung von Unternehmen (GPs als zentrales Strukturierungskriterium)\n- Radikale Umgestaltung von GPs zur Performance-Steigerung\n- Gestaltungspotenzial von IT soll ausgeschöpft werden\n- organisatorische Schnittstellen sollen minimiert werden\n- konsequente Kundenorientierung als oberste Gestaltungsmaxime",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751728191290,
+      "front": "Welche Kritikpunkte gibt es an Business Process Reengineering?",
+      "back": "- erworbenes Prozess Know-How von Organisationen wird wenig berücksichtigt\n- Disruption: massive Veränderungen stellen Überforderung für Organisationen dar (Mitarbeitende, Führungskräfte, existierende Strukturen und IT-Landschaften)",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751728314915,
+      "front": "Was ist der Unterschied zwischen Business Process Reengineering und Prozessoptimierung?",
+      "back": "Der Grad der Radikalität.\nBPR ist disruptiv, während Prozessoptimierung inkrementelle Optimierungen von GPs anstrebt.",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751728444753,
+      "front": "Was sind mögliche Maßnahmen zur Prozessoptimierung?",
+      "back": "1. Transparenz schaffen\n2. Abteilungs- /Unternehmensübergreifende Integration\n3. Kurze Regelkreise (Fehler frühzeitig feststellen)\n4. Optimaler Zentralisierungs-/Dezentralisierungsgrad\n!5. Eindeutige Definition von Zuständigkeiten\n5. Funktionsintegration\n6. Vereinfachung von GPs",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751728776410,
+      "front": "Was ist der Unterschied zwischen der Verbesserung einer wertschöpfenden Tätigkeit und der Veränderung eines Supportprozesses?",
+      "back": "Verbesserung = Steigerung der Effektivität\nVeränderung = Steigerung der Effizienz",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751729264480,
+      "front": "Was ist der Unterschied zwischen Verdeckter und Offener Verschwendung im Rahmen der Prozessoptimierung?",
+      "back": "- Verdeckte Verschwendung = Aktiitäten ohne direkte Wertschöpfung, notwendig zur Erstellung von Produkten oder Dienstleistungen\n(prozessbezogene Supportprozesse)\nz.B. Material vom Lager holen, den Arbeitsplatz vorbereiten\n- Offene Verschwendung = für normalen Prozessablauf nicht erforderliche Arbeitsschritte \nz.B. Nacharbeit wegen Fehlern, Warten auf Material, Suchen nach Werkzeugen",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751729608654,
+      "front": "Nenne 8 praktische Optimierungsmaßnahmen für GPs:",
+      "back": "1. Weglassen\n2. Auslagern (Vergabe)\n3. Zusammenfassen\n4. Parallelisierung (Arbeitsteilung erhöhen)\n5. Verlagern (Früher oder Später im Prozess)\n6. Beschleunigen\n7. Schleifen vermeiden!\n8. Ergänzen",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751729701438,
+      "front": "Beschreibe das Weglassen bzw. Abschaffen in Bezug auf Prozessoptimierung:",
+      "back": "- Überprüfung der Notwendigkeit der Aktivität zur Funktionserfüllung\n- Offene Verschwendung(saktivitäten) weglassen\n- Medienbrüche abschaffen",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751731171871,
+      "front": "Was ist Geschäftsprozessmanagement?",
+      "back": "- multidisziplinarer Ansatz \n= Integration von Mensch, Technik und Organisation\n\nGeschäftsprozessmanagement ist die systematische Gestaltung, Steuerung und Optimierung von unternehmensweiten Abläufen mit dem Ziel, Kundennutzen zu maximieren und organisatorische Effizienz zu steigern.",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751733114967,
+      "front": "Gibt es ein allgemeingültiges Referenzmodell für Geschäftsprozesse?",
+      "back": "- Nein, Prozesse sind unterschiedlich außgeprägt (je nach Branche, Unternehmenstyp, -größe usw.)\n- Unterscheidung zwischen Kern-, Führungs- und Supportprozessen allgmein anerkannt\n- weitere Annäherungen: Y-CIM-Modell, Handels-H",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751734240102,
+      "front": "Was ist der Unterschied zwischen Prozessorientierung und Prozesskriterienorientierung?",
+      "back": "- Prozessorientierung: externer Fokus, End-to-End Prozessfluss z.B. Aufteilung der Prozesse in Kundengruppen\n- Prozesskriterienorientierung: interner Fokus, zum Beispiel Aufteilung der Prozesse in Produktgruppen, nach Typ (Führungs-, Kern-, Supportprozess) oder auch nach anderen möglichen Kriterien: Volumen, Komplexität (unternehmenspezifisch)",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751734660886,
+      "front": "Was ist das Y-CIM-Modell?",
+      "back": "- Idee/Ziel: Verbindung sämtlicher operativer Informationssysteme: ERP, PDM und MES \n- Y = Y-Form des Modells: Hauptäste Auftrag (Kundenorientiert) & Produkt (Entwicklungsorientiert), Stamm: Produktion\n- CIM = Computer Integrated Manufacturing",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751734797918,
+      "front": "Was ist das Handels-H?",
+      "back": "- Pendant zu Y-CIM speziell für Handelsunternehmen\n- Säulen Einkauf & Verkauf werden durch Brücke Lager miteinander verbunden & bilden das H\n- Fundament: Supportprozesse\n- Dach: Führungsprozesse (Controlling, Business Intelligence)",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751734929756,
+      "front": "Was ist der Unterschied zwischen den Referenzmodellen Y-CIM und Handels-H?",
+      "back": "Fokus:\nY-CIM: Produktion\nHandels-H: Lagerhaltung",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751735793802,
+      "front": "Was sind die konstitutiven Merkmale eines Geschäftsprozesses?",
+      "back": "1. Kundennutzen\n2. Definierte Start- und Endereignisse\n3. Klare Ablauflogik\n4. Wohl definierte Verantwortlichkeiten\n5. Input & Output\n6. Wiederholbarkeit",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751736285379,
+      "front": "Was ist eine Dienstleistung? Nenne 3 Definitionsansätze",
+      "back": "1. Enumerative Definition (unvollständig, unscharf)\nAufzählung von Beispielen: Friseurdienstleistung, Unternehmensberatung)\n2. Abgrenzung zu Sachgütern:\nimmateriell, nicht lagerbar, Erstellung keine \"anonyme\" Fertigung, sondern \"im Beisein\" des Kunden\n3. Auf Basis konstitutiver Merkmale",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751736606504,
+      "front": "Wie definiert man Dienstleistung auf Basis konstitutiver Merkmale? Was ist das 3-Dimensionen-Modell?",
+      "back": "- Zentrales Element: Externer Faktor Kunde in alle Dimensionen eingebunden = Konstitutive Merkmale von Dienstleistungen\n1. Potenzial-Dimension: Notwendigkeit des Unternehmens Leistungspotenziale zur Verfügung zu stellen (z.B. ausgebildete Friseure)\n2. Prozess-Dimension: Tätigkeit an Kundem oder Objekt (z.B. Haare schneiden)\n3. Ergebnis-Dimension: Konkretisierung der Wirkung am Nachfrager, hoher Grad an Immaterialität (z.B. neue Frisur)",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751736749531,
+      "front": "Beschreibe die Nichtlagerbarkeit von Diensteistungen:",
+      "back": "- Leistungskapazität durch Kunden-Abruf gesteuert\n- Leistungsbereitschaft wird dauerhaft aufrechterhalten\n- keine Lagerhaltungsprozesse\n- Flexible Preispolitik und Kommunikation steuern Kapazitätsauslastung\n- Partnernetzwerk: Einbindung von externen Dienstleistern zur kurzfristigen Reaktion auf Nachfrageerhöhungen\n- Zurechenbarkeit der Leistungsbereitschaft auf die einzelnen Dienstleistungen",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751736971116,
+      "front": "Beschreibe den externen Faktor Kunde in Bezug auf Dienstleistungen:",
+      "back": "- der Kunde als Co-Produzent mit Einblick in Arbeitsweise des Dienstleisters\n- Kunde in Erbringungsphase eingebunden, kann eingreifen\n- Mangelnde Standardisierbarkeit der Prozesse durch Kundeneinfluss\n- i.d.R. direkter Kundenkontakt: besondere Bedeutung von Kundenmangement",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751738334833,
+      "front": "Beschreibe den Faktor der Immaterialität in Bezug auf Dienstleistungen:",
+      "back": "- mangelnde Einschätzbarkeit der Leistungen und Prozesse vor dem Kauf\n- Kaufprozess dauert i.d.R. länger\n- Controllingprozesse: Preis kann nicht durch Materialwert bestimmt werden \n- Prozesse sollten Dienstleistung materialisieren (greifbar und wahrnehmbar machen)\n- besonderer Stellenwert von Kommunikation und Imagebildung: Kundenvertrauen aufbauen",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751738474462,
+      "front": "Beschreibe Heterogenität als Merkmal von Dienstleistungen:",
+      "back": "- mangelnde Standardisierbarkeit der Leistungen und Prozesse\n- Imagemerkmale müssen Standards ersetzen\nStandardisierung... \n...des Potenzials (z.B. Ausstattng, Personal)\n...der Prozesse (z.B. Beschreibung der Abläufe, straffe Organisation)\n...der Ergebnisse (z.B. Pflichtenhefte)",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751738752031,
+      "front": "Nenne 4 Arten von Dienstleistungen mit Beispielen:",
+      "back": "niedrige Variantenvielfalt:\n1. Kundenfokussiert (z.B. Callcenter) - Kontaktintensität:hoch\n2. Prozessfokussiert (z.B. Online Banking) - Kontaktintensität:niedrig\nhohe Variantenvielfalt:\n3. Wissensfokussiert (z.B. Beratung) - Kontaktintensität:hoch\n4. Flexibilitätsfokussiert (z.B. IT-Outsourcing) -Kontaktintensität:niedrig",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751739056669,
+      "front": "Was ist die Service-Blueprint Modellierungsmethode?",
+      "back": "- Modellierung und Konzeption von Dienstleistungsprozessen, die integrativer Rolle des Kunden Rechnung trägt (Sichtbarkeitslinie)\n- Bestandteile:\n1. Physische Evidenz (tangible Artifacts)\n2. Kundenaktivitäten\n3. Mitarbeiteraktivitäten vor Kunden (sichtbar)\n4. Back-Office (für Kunde unsichtbar)\n5. Support-Prozesse",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751739386872,
+      "front": "Nenne 6 Dimensionen prozessbezogener Qualitätskennzahlen:",
+      "back": "1. Qualität des Prozessablaufs (z.B. Anzahl interner Prozessaudits)\n2. Qualität des Prozessergebnisses (z.B. Anteil zufriedener Kunden)\n3. Qualität des Prozessinputs (z.B. Anteil fehlerfrei gelieferter Informationen)\n4. Mitarbeiterbezogene Qualitätskennzahlen (z.B. Fluktuationsrate)\n5. Kostenbezogene Qualitätskennzahlen (z.B. Anteil am Umsatz)\n6. Qualitätsrelevante Rahmenbedingungen (z.B. Anteil quantifizierter Qualitätsziele)",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751739831235,
+      "front": "Nenne 6 Qualitätsmerkmale von Prozessen:",
+      "back": "1. Vereinbarungen (definierte Einbettung im Prozessumfeld, je detaillierter desto besser, z.b. Service Level Agreements)\n2. Effektivität\n3. Effizienz\n4. Konformität zu relevanten Standards und Vorgaben\n5. Prozessfähigkeit (Prozessstabilität, statistische Prozessfähigkeit, Fähigkeitsgrad - Reifegrade)\n6. Prozessmodellierung (Ordnungsgemäß und Quantitativ)",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751740243174,
+      "front": "Erkläre Prozessqualität vs. Ergebnisqualität:",
+      "back": "- nicht klar abgrenzbar\n- Qualität > Merkmale > Teilmerkmale > Messungen\n- Obere Ebene wird durch Unterebene vollständig beschrieben\n- Innerhalb einer Ebene: Elemente voneinander unabhängig",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751740404196,
+      "front": "Beschreibe Effizienz vs. Effektivität in Bezug auf Geschäftsprozesse:",
+      "back": "1. Führungsprozesse: Efz und Efk gleich gewichtet\n2. Kernprozesse: Effektivität! - Beurteilung ob Prozess zur Zielerreichung geeignet ist: Art und Weise\n3. Supportprozesse Effizienz! - Beurteilung ob Prozessaufwand adäquat zur Zielerreichung ist: z.B. Wirtschaftlichkeit",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751740683262,
+      "front": "Beschreibe die Wertschöpfungskette nach Porter:",
+      "back": "Kern-Idee: Zeigt alle wertschöpfenden Aktivitäten eines Unternehmens\nAufbau:\nPrimäre Aktivitäten: Der Hauptprozess (Input → Transformation → Output → Kunde)\nUnterstützende Aktivitäten: Alles was den Hauptprozess ermöglicht\nZweck: Verstehen wo Wert geschaffen wird und Kosten optimiert werden können",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751740767868,
+      "front": "Beschreibe eine Prozesslandkarte am Beispiel der Beschaffung:",
+      "back": "1. Ebene: Kernprozesse\n2. Ebene: Beschaffung: Einkauf, Logistik+SCM\n3. Ebene: Lagerhaltungsprozesse\n4. Ebene: Wareneingang\n5. Ebene: Annahme + Entladung",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751785937310,
+      "front": "Wie werden Prozessschritte gebildet?",
+      "back": "- GP, Teilschritte und Funktionen sind sinnvoll voneinander abzugrenzen\n- Start & Ende definieren\n- erst grob, dann detaillierter in Aktivitäten unterteilen\n- Anhaltspunkte für eigenen Prozessschritt:\n1. Wechsel des Leistungserbringers\n2. Änderung des Status eines Objekts\n3. Art der Verrichtung ändert sich grundlegend",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751786066064,
+      "front": "Wie unterscheiden sich Prozesse innerhalb der Industrie vs. Behörden?",
+      "back": "- Dienstleistungsprozesse relativ ähnlich \n- Behörde: stark formalisiert, gesetzabhängig, meist keine Produkte (immateriell), nicht zwingend gewinnbringend",
+      "stackId": 1,
+      "status": false
+    },
+    {
+      "id": 1751786176221,
+      "front": "Definiere Prozessmodell:",
+      "back": "- Komplexitätsreduktion (vereinfachtes Abbild der Realität)\n- Abbild eines realen Prozesses bzw. Prozessausschitts\n- fokussiert sich je nach Modellierungszweck afu wichtige Aspekte unter Vernachlässigung von weniger wichtigen Aspekten",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751786233352,
+      "front": "Nenne Modellierungszwecke im Geschäftsprozessmanagement:",
+      "back": "1. Prozessoptimierung!\n2. Einführung von Workflow-Managment-Systemen\n3. Entwicklung von Software\n4. Zertifizierung nach ISO-Norm",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751786352824,
+      "front": "Was sind die 6 Grundsätze ordnungsgemäßer Modellierung?",
+      "back": "1. Richtigkeit \n2. Relevanz \n3. Wirtschaftlichkeit\n4. Klarheit (Verständlichkeit je nach Nutzergruppe)\n5. Vergleichbarkeit (Modellierungskonventionen)\n6. Systematischer Aufbau (Einordnung in Infosystem-Architektur, Rahmen für unterschiedliche Beschreibungssichten)",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751786518013,
+      "front": "Wie unterscheiden sich Prozessmodell und Prozessinstanz?",
+      "back": "Prozessmodell: \n- abstrakte, allgemeine Beschreibung eines wiederholbaren Arbeitsablaufs\n- definiert grundsätzliche Struktur, Aktivitäten, Rollen und Regeln\nProzessinstanz:\n= konkrete Ausführung des Prozessmodells zu einem bestimmten Zeitpunktmit spezifischen Eingabedaten und Beteiligten",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751786773349,
+      "front": "Welche Dokumentationsarten zur Prozessmodellierung gibt es?",
+      "back": "1. Texte\n2. Tabelle\n3. Diagramme:\n- Datenflussorientiert (z.B. Flussdiagramme)\n- Objektorientiert (z.B. UML)\n- Kontrollflussorientiert: z.B. \neEPK (erweiterte Ereignisgesteuerte ProzessKette),\nBPMN (Business Process Model Notation),\nWKD (WertschöpfungsKettenDiagramm)",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751787311709,
+      "front": "Vergleiche die Prozessmodellierungsmethoden WKD, eEPK und BPMN:",
+      "back": "- WKD: grob, keine Standardisierung, geringe Komplexität/Schulungsbedarf (auch für Management einfach verständlich)\n- eEPK: detailliert, keine Standardisierung, hohe Komplexität/Schulungsbedarf\n- BPMN: detailliert, OMG Spezifikation, sehr hohe Komplexität/Schulungsbedarf",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751787664673,
+      "front": "Beschreibe die wichtigsten Regeln für die Modellierung der eEPK:",
+      "back": "1. Wird von oben nach unten modelliert\n2. Ereignisse (Sechseck) und Funktionen/Aktivitäten (Viereck) wechseln sich ab und sind mit gerichteten Kanten verbunden\n3. Input und Output mit gerichteten Kanten mit Aktivitäten verbunden\n4. Organisationssysteme (Kreis) sind mit ungerichteten Kanten mit Aktivitäten verbunden)\n5. Gateways (wie bei BPMN) müssen immer mit demselben geschlossen werden\n\nGerichtete Kante -> \nUngerichtete Kante -",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751787888006,
+      "front": "Wie wird eine Wertschöpfungskette (WKD) modelliert?",
+      "back": "1. Führungsprozesse (auf einer Ebene)\n2. Kernprozesse (Aufgeteilt auf mehrere Ebenen, z.B. nach Abteilungen: Vertrieb, Produktion, Beschaffung) \n- Kann auch noch mehr als zwei Ebenen habe\n- Je tiefer, desto mehr folgt die Reihenfolge Zeitabläufen\n- Generell folgen Elemente der WKD keiner zeitlogischen Reihenfolge (obwohl die Kästchen gerichtet sind)\n3. Supportprozesse (auf einer Ebene)",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751787954979,
+      "front": "Was ist RPA?",
+      "back": "= Robotic Process Automation\n- Automatisierung von Geschäftsprozessen durch (Software-) Roboter\n- Imitation menschlicher Benutzerinteraktionen\n- kann mit strukturierten Eingabedaten hochgrad repetitive Arbeitsabläufe automatisieren\n- regelbasierte Entscheidungslogik\n- geringe Prozesskomplexität (Tätigkeiten, die nur begrenzt kognitive Fähigkeiten erfordern)",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751788159199,
+      "front": "Vergleiche Unattended Robots vs. Attended Robots, wozu zählt RPA?",
+      "back": "RPA: Unattended Robots\n- Ausührung vorher geplant\n- ausgeführt ohne Beaufsichtigung im Hintergrund auf zentralen Servern\n- Monitoring im Kontrollzentrum\n- oft ohne Interaktion (End-to-End Automatisierung)\n\nRDA (Robotic Desktop Automation): Attended Robots\n- Ausführung auf Desktop\n- Überwachung durch Nutzer (mit Interaktion)",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751788277202,
+      "front": "Was ist SPA (Smart)/IPA (Intelligent)?",
+      "back": "= RPA mit modernen Technologien wie Machine Learning und Big Data\n- unstrukturierte Daten als Basis von Automatisierung möglich\n- Unterstützung bei Entscheidungen\n- Text- und Spracherkennung",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751788565554,
+      "front": "Was sind die 4 Reifegradstufen intelligenter Prozessautomatisierung?",
+      "back": "1. RPA\n2. IPA\n3. Augemented-IPA\n- hohe Entscheidungsqualität (kognitive Fähigkeiten)\n- ganzheitlicher Ansatz\n4. Autonome Agenten:\n- unabhängig von menschlichen Anweisungen\n- Ausnahmebehandlung ohne Eingreifen\n- selbstständiges Lernen\n- Multi-Agenten-Systeme/Technologiemix",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751788960827,
+      "front": "Wie kann RPA für Legacy Systeme nützlich sein?",
+      "back": "- Einsatz als Brückentechnologie zwischen Alt- und Neusystemen \n- erhöht Automatisierungsgrad des Altsystems\n- übernimmt repetitive Aufgaben \n- z.B. rund um Dokumente & Daten:\n1. Vorsortierung\n2. Umwandlung\n3. Weiterleitung\n4. Übertragung in Datenbank",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751789072950,
+      "front": "Was sind die Grenzen und Nachteile von RPA?",
+      "back": "- kleinste Veränderungen erfordern Anpassungen/ verursachen Fehler\n- je größer der Prozess desto fehleranfälliger \n- geringe Skalierbarkeit in Bezug auf Komplexität, hohe Skalierbarkeit in Bezug auf Quantität\n- Notwendigkeit exakter Dokumentation (Aufwand wird häufig unterschätzt)\n- nicht geeignet bei unstrukturierten Daten und komolexen Entscheidungen",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751789303105,
+      "front": "Nenne die Minimalkriterien bei der Auswahl geeigneter RPA-Prozesse:",
+      "back": "1. Standardisiert (kann z.B. für verschiedene Standorte eingesetzt werden)\n2. Strukturiert und regelbasiert (klare Vorgaben und Abläufe)\n3. häufige Wiederholung bei hohem Zeitaufwand\n4. digitale Input- und Ouput-Quellen (Standarddatentypen z.B. XML, CSV)",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751789496317,
+      "front": "Was sind weitere Kriterien zur Auswahl geeigneter RPA-Prozesse abseits der Minimalkriterien?",
+      "back": "- konstant (keine häufigen Änderungen)\n- reif (gut dokumentiert mit genug Prozesserfahrung)\n- routiniert \n- Umfang des Prozessvolumens\n- Komplexität von Berechnungen\n- Anzahl an Ausnahmen, manuellen Eingriffen, beteiligten Usern und Systemen\n- Sicherheitsrisiken",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751789614600,
+      "front": "Nenne 5 RPA-Rollen:",
+      "back": "1. RPA Business Analyst\n2. RPA Developer \n3. RPA Citizen Developer (1.+2.)\n4. RPA Architect\n5. RPA Support",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751789851401,
+      "front": "Beschreibe die verschiedene Flows, die durch Power Automate realisierbar sind:",
+      "back": "1. Cloud-Flows\n- Automatisierte Flows (durch Trigger ausgelöst)\n- Direkte Flows (manuell ausgelöst)\n- Geplante Flows (z.B. Backups)\n2. Desktop-Flows\n= Automatisierung von Aufgaben auf dem Desktop oder im Browser\n3. Geschäftsprozessflows\n= führen Mitarbeiter durch Geschäftsprozesse",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751790376422,
+      "front": "Vergleiche RPA, WFM und GPM in Bezug auf den jeweiligen Fokus:",
+      "back": "RPA: Automatisierung (keine Prozessveränderung, sondern Effizienzsteigerung durch Bots)\nWFM: Automatisierung (Optimierung als Nebenprodukt der Automatisierung)\nGPM: Modellierung & Optimierung (Automatisierung als Werkzeug, nicht als Ziel)",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751790648501,
+      "front": "Vergleiche RPA, WFM und GPM in Bezug auf die Rolle des Modellierens:",
+      "back": "RPA: niedrig, einfache Dokumentation\nWFM: mittel: in Planungsphase\nGPM: hoch: ganzheitlicher Ansatz, Modellierung Teil von kontinuierlichem Prozessmanagement",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751791153160,
+      "front": "Vergleiche RPA, WFM und GPA bezüglich der Einbindung von Legacy-Systemen:",
+      "back": "1. RPA: Brücke zwischen Alt- und Neusystemen (Verbesserung der Koexistenz)\n2. WFM: Einbindung von Legacy Systeme durch wohldefinierte Schnittstellen, Workflow-Engine steuert Datenfluss zwischen Systemen\n3. GPM: End-to-End Sicht auf Prozesse\n- keine sofortige Veränderung, aber graduelle Ablösung von Altsystemen durch Optimierung möglich\n- Abstraktion zwischen Prozesslogik und technischer Umsetzung",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751791491217,
+      "front": "Vergleiche RPA, WFM und GPM in Bezug auf ihre Skalierbarkeit",
+      "back": "1. RPA: niedrige Skalierbarkeit der Prozesskomplexität, hohe Skalierbarkeit der Anzahl an Prozessinstanzen\n2. WFM: mittlere Skalierbarkeit \n- mehr Komplexität möglich, neue Workflows einfacher hinzufügbar\n- Schnittstellen als Grenzen (Performance der angebundenen Systeme bestimmt Skalierungsmöglichkeiten des WFMS)\n3. GPM: hohe Skalierbarkeit\n- strategischer Ansatz\n- zentrales Management beliebig vieler Systeme",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751791687980,
+      "front": "Vergleiche Einzelfertigung vs. Massenfertigung in Bezug auf Prozesseigenschaften und Mitarbeiterqualifikation:",
+      "back": "Einzelfertigung:\n- wenig standardisierte Prozesse\n- hohe Flexibilität\n- hohes Kompetenz- und Aufgabenspektrum der Mitarbeiter\nMassenfertigung:\n- hoch standardisierte Prozesse\n- geringe Flexibilität\n- niedriges Kompetenz- und Aufgabenspektrum der Mitarbeiter",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751791955566,
+      "front": "Was sind die 3 Ps? Stichwort: Dienstleistungen",
+      "back": "= die konstitutiven Merkmale einer Dienstleistung\n1. Produkt\n2. Prozess\n3. Potential",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751792392386,
+      "front": "Was sind die Phasen des Geschäftsprozessmanagements?",
+      "back": "Strategie\n    |\nModellierung <-> Optimierung\n    |\nAusführung\n    |\nControlling/Monitoring\n    |\nModellierung <-> Optimierung\n auch Change-Management (in allen Phasen) und Anforderungserhebung (in der Strategiephase) sind Teil von GPM",
+      "stackId": 1751711593329,
+      "status": false
+    },
+    {
+      "id": 1751792806783,
+      "front": "Vergleiche RPA und WFM in Bezug auf Spezifikationen",
+      "back": "1. RPA: keine komplexen Spezifikationen, soll menschliches Verhalten direkt darstellen\n2. WFM: komplexe Workflow-Spezifikationen mit wohl definierten Schnittstellen (sehr aufwändig)",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751794370003,
+      "front": "Nenne Besonderheiten der öffentlichen Verwaltung auch in Bezug zur Industrie:",
+      "back": "1. Vorgaben aus Gesetzgebung: erhöht Komplexität\n(vs. Industrie: Gesetze weniger konstitutiv)\n2. Weitgehende Entscheidungsautonomie von Behörden\n(vs. Industrie: striktere, einheitlichere Vorgaben)\n3. Zeitlich begrenzter Planungshorizont (Legislaturperiode)\n4. Kunde kann sich Dienstleister nicht aussuchen (& Behörde nicht den Kunden/Bürger)\n5. Kaum Wettbewerb (Problem für Effizienz & Effektivität)\n6. Hoheitliche Aufgaben\n7. Relativ konstantes Leistungsangebot (LEIKA)",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751794680828,
+      "front": "Nenne Herausforderungen in der öffentlichen Verwaltung bezüglich der Prozessgestaltungsmöglichkeiten:",
+      "back": "- Föderalismusprinzip \n- Komplexe Abstimmungsprozesse \n(Viele Akteure auf verschiedenen Ebenen)\n- Spezifische Rollen, Verantwortlichkeiten und Prozedere\n- umfassende IT-Unterstützung schwer umsetzbar",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751795002358,
+      "front": "Was sind wichtige Unterschiede zwischen Industrie und Verwaltung bezüglich Ziel und Kontrolle?",
+      "back": "Industrie: Gewinnmaximierung als Ziel, Erfolgskontrolle\nÖV: Öffentliche Auftragserfüllung und Wirtschaftlichkeit als Ziel, Finanzkontrolle",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751795118350,
+      "front": "Was sind Unterschiede zwischen Industrie und öffentlicher Verwaltung bezüglich Finanzierung und Entlohnung?",
+      "back": "Industrie: Finanzierung durch Umsatzerlöse, Entlohnungssystem: flexible, finanzielle Anreizgestaltung\nÖV: Finanzierung durch Steuern und Abgaben, Vom Staat finanziertes Besoldungs- und Vergütrungssystem",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751795195000,
+      "front": "Was sind Unterschiede zwischen Industrie und öffentlicher Verwaltung bezüglich Verantwortung und Steuerungsprinzip?",
+      "back": "Industrie: Eigene Verantwortung für Aufgabenerfüllung, marktwirtschaftliche Ordnung als Steuerungsprinzip\nÖV: Regelungen und Gesetze nehmen einen Großteil der Eigenverantwortung ab, Politische Legitimation als Steuerungsprinzip",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751795263562,
+      "front": "Was sind Unterschiede zwischen Industrie und öffentlicher Verwaltung bezüglich Marktausrichtung und Produktpallette?",
+      "back": "Industrie: Homogen\nÖV: Heterogen",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751795425964,
+      "front": "Definiere den Begriff Verwaltungsprozess:",
+      "back": "- Kleinste operationalisierte Einheit einer Verwaltungsmaßnahme mit abgeschlossenen, aufgabenbezogenen Arbeitsergebnis \n- oft Vorgang genannt\n- besondere Bedeutung von Dokumenten und deren Mangement (Objektsicht)",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751795483969,
+      "front": "Was wird in einem Verwaltungsprozess oft priorisiert: Ablaufsicht oder Objektsicht?",
+      "back": "Objektsicht, besondere Bedeutung von Dokumenten und deren Management in Verwaltungen",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751795724538,
+      "front": "Nenne Perspektiven im Prozessverständnis der öffentlichen Verwaltung:",
+      "back": "1. rechtliche Perspektive\n- Verfassung & Gesetze \n- Rechtsverordnungen (praktische Umsetzung der Gesetze\n- Verwaltungsvorschriften, Satzungen (keine Rechtsnorm, nur bindend für Verwaltungen)\n2. inhaltliche Perspektive\n3. IT-Unterstützung",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751795860676,
+      "front": "Nenne die Handlungsformen der öffentlichen Verwaltung:",
+      "back": "1. Verwaltungsakt - Entscheidung auf Antrag (Gewährung/Ablehung) oder Eingriffsentscheidung (Verbot/Gebot)\n2. Faktisches/schlichtes Verwaltungshandeln (Information, praktische Dienstleistungen)\n3. Öffentlich rechtlicher Vertrag (Vereinbarungen zwischen Verwaltung und Bürger)\n4. Verordnungen, Satzungen",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751795916787,
+      "front": "Definiere: Verwaltungsakt",
+      "back": "(§ 35 VwVfG):\nEin Verwaltungsakt ist jede Verfügung, Entscheidung oder andere hoheitliche Maßnahme, die eine Behörde zur Regelung eines Einzelfalls auf dem Gebiet des öffentlichen Rechts trifft und die auf unmittelbare Rechtswirkung nach außen gerichtet ist.",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751796002119,
+      "front": "Was sind die 5 wesentlichen merkmale eines Verwaltungsakts?",
+      "back": "1. Behörde muss handeln\n2. Hoheitliche Maßnahme auf dem Gebiet des öffentlichen Rechts (Abgrenzung zu Privatrecht)\n3. Regelungsgehalt (Abgrenzung zu bloßen Realakten)\n4. Einzelfall: konkret individuelle Regelungen\n5. Außenwirkung",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751796267556,
+      "front": "Ziel von Prozessabdeckung in Kernprozessen:",
+      "back": "Ende des einen Prozesses ist Anfang des nächsten Prozesses",
+      "stackId": 1751711601241,
+      "status": false
+    },
+    {
+      "id": 1751797021063,
+      "front": "Nenne die 3 grundlegenden Prozesstypen in der öffentlichen Verwaltung:",
+      "back": "1. Offene Entscheidungsprozesse - unstrukturiert, werden nicht modelliert (z.B. Politische Entscheidungsfindung, Genehmigungsplan für ein Kraftwerk)\n2. Dienstleistungsprozesse - stehen im Mittelpunkt von Modellierung & Automatisierung (z.B. Bürgergeld-Antrag, Beantragung Kindergeld, Ausstellung Ausweis)\n3. Wohlstrukturierte \"Produktionsprozesse\" - interne Prozesse, Potential zur Modellierung (z.B. Urlaubsantrag, Krankmeldung)",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751797193844,
+      "front": "Nenne die 3 E-Government Prozesstypen nach Becker:",
+      "back": "1. Information: Keine interaktive Beziehung zwischen Anbieter und Nutzer\n2. Kommunikation: Einfache Kommunikation zusätzlich zur Information (z.B. Ausfüllen von Formularen)\n3. Transaktion: Möglichst vollständige digitale Abwicklung mit rechtlicher Wirkung",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751797366678,
+      "front": "Beschreibe den E-Gov Prozesstyp Information und nenne Vorteile, Beispiele und Erfolgsfaktoren:",
+      "back": "- Einseitige Kommunikation: Bereitstellung von Informationen in elektronischer Form\n- Instrumente: Hompage, Portal, Social Media\n- Beispiele: Touristeninformationen, Abfallkalender\n- Vorteile: Verfügbarkeit, Aktualität, Möglichkeit elektronischer Weiterverarbeitung, kostengünstige Bereitstellung\n- Erfolgsfaktoren: regelmäßige Aktualisierung, ansprechender Auftritt, thematisch geordnet, ausführlich und verständlich",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751797787401,
+      "front": "Beschreibe den E-Gov Prozesstyp Kommunikation und nenne Vorteile, Beispiele und Erfolgsfaktoren:",
+      "back": "- Dialogische Kommunkation mit Bürgern über elektronische Medien\n- Instrumente: Homepage, Portal, elektronisches Formular, Mail\n- Beispiele: E-Mail Kontakt, Sperrmüllanmeldung\n- Vorteile: Asynchronität, geringe Kosten, Geschwindigkeit, Elektronische Weiterverarbeitung/Ablage, höhere Kundenzufriedenheit, Fehlerreduktion durch Vermeidung von Medienbrüchen\n -Erfolgsfaktoren: Datensicherheit, Usability, Prozessreorganisation, möglichst durchgängige Workflow-Unterstützung",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751798606305,
+      "front": "Nenne die E-Government Entwicklungsstufen nach Wirtz und Vergleiche mit Beckers Modell:",
+      "back": "1. Präsentation/Information (wie Becker)\n2. Kommunikation (wie Becker)\n3. Transaktion (z.B. Reservierung Wunschkennzeichen)\n4. Partizipation (z.B. Abstimmungen)\n5. Integration (behördenübergreifende elektronische Integration)\nVergleich: Transaktion nach Becker = \nTransaktion, Partizipation und Integration nach Wirtz \n(weitere Unterteilung, Becker ziemlicher großer Schritt von Kommunikation zu Digitalisierung des gesamten Prozesses)",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751798893189,
+      "front": "Wie könnte man die E-Gov Entwicklungsstufen nach Wirtz ergänzen? Welcher Begriffsauffassung für Prozessreifegrade folgt diese Veranstaltung?",
+      "back": "- Ergänzung: Smart\n= Proaktiv, Vollautomatisiert \n(reale Beispielprozesse: Geburt in Estland, Steuererklärung in Schweden)\nProzessreifegrade (Weglassen der Partizipationsstufe):\nInformation, Kommunikation, Transaktion, Integration, Smart",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751803997069,
+      "front": "Was ist das OZG?",
+      "back": "= Onlinezugangsgesetz 2017, 2.0: 2024\n- verpflichtete Bund, Länder und Kommunen Verwaltungsleistungen bis 2022 digital anzubieten (haha)\nKernpunkte:\n- Digitalisierungspflicht\n- Once-Only-Prinzip (Nutzung von Lösungen anderer Behörden)\n- Nutzerzentrierung (Gestaltung aus Bürgersicht)\n- Portalverbund (Verknüpfung von Bund-, Länder- und Kommunalportalen)",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751804424572,
+      "front": "Nenne die Stufen des Reifegradmodells des OZG:",
+      "back": "Stufe 0: Offline\nStufe 1: Info\nStufe 2: Vorlage (Formulare online bereitstellen)\nStufe 3: Online (Beantragung möglich, Nachweise ggbf. in Papierform)\n=> OZG Verpflichtung ab dieser Stufe erfüllt\nStufe 4: Online Transaktion (Beantragung + Nachweise online)\n=> OZG Leitbild Digitalisierung\nStufe 5: Vernetzte Online Transaktion (Vollständige digitale Abwicklung) \n=> Once-Only Prinzip (Daten müssen nicht eingereicht werden, sondern können automatisch von zentraler Stele abgerufen werden)",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751805473836,
+      "front": "Beschreibe das Praxisbeispiel des digitalisierten Baugenehmigungsverfahrens im Kreis Soest (1994-2012):",
+      "back": "- Baugenehmigung gehört zu Top OZG Prozessleistung (hohe Sichtbarkeit und wirtschaftliche Bedeutung)\n- Komplexität: Vielzahl an nicht standardisierten Input Dokumenten + Prüfung auf Übereinstimmungen und Widersprüche\n- Entwicklung: 1994: elektronisches Baubuch - Online Plattform: Kommunikation - Scannen der Unterlagen - Integration elektronische Signatur - 2012: erste digitale Baugenehmigung",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751805560036,
+      "front": "Welche Funktionen beinhaltet das Bauportal des Kreis Soest?",
+      "back": "- Online-Portal\n- Datenbank\n- Aktueller Genehmigungsstatus\n- Digitale Bauantragsstellung und Genehmigung\n- Workflow-gesteuerter Informationsfluss\n- Digitalisierung aller Papieranträge\n- Revisionssichere Archivierung in DMS",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751806243669,
+      "front": "Beschreibe die 4 Module der IT-Anwendung für das Baugenehmigungsverfahren im Kreis Soest:",
+      "back": "1. Digitale Antragsstellung und Authentifizierung (Signatur)\n2. Digitale Annahme und Übermittlung von Bauvorlagen (Datenbankspeicherung)\n3. Digitale Bearbeitung und Online-Statusabfrage\n4. Digitale Genehmigung und elektronischer Bescheid",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751806358007,
+      "front": "Welche Dokumente und Standards kommen im Baugenehmigungsverfahren zum Einsatz?",
+      "back": "- XML Standardformat für Formulare\n- Xbau als verbindlicher Standard für Datenaustausch mit Behörden (durch EGov-Gesetz NRW verbindlich)",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751806714938,
+      "front": "Was ist der Zusammenhang zwischen E-Government und Prozessen?",
+      "back": "- Prozessbezug!\n- Dienstleistungsprozesse im öffentlichen Sektor sollen durch Inforamtionssysteme unterstützt werden\n- NPM: Kundenorientierung",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751806810706,
+      "front": "Was ist ein Formalziel, was ein Sachziel? Ordne zu: Privatwirtschaft, öffentlicher Sektor:",
+      "back": "Formalziel: Wirtschaftlichkeit = Privatwirtschaft\nSachziel: Leistungen zum bestimmten Zeitpunkt in bestimmter Art (Menge, Qualität) zur Verfügung stellen = öffentlicher Sektor",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751806887518,
+      "front": "Nenne die Hauptziele des E-Government und deren Wirkrichtung:",
+      "back": "1. Interne Wirkrichtung: Erhöhung der Effizienz öffentlicher Verwaltungen (z.B. Prozessoptimierung)\n2. Externe Wirkrichtung: Verbesserung des Leistungsangebots und Erhöhung der Zugänglichkeit",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751806977305,
+      "front": "Was sind Anwendungsgebiete des E-Government?",
+      "back": "= spiele E-Bullshit-Bingo:\neinfach ein E- überall davor schreiben\nz.B. E-School, E-Voting, E-Information...",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751807029339,
+      "front": "Was ist die Vision des E-Government?",
+      "back": "Einfachere, schnellere, effizientere und bürgerfreundlichere Verwaltung",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751807349335,
+      "front": "Nenne ein paar Infos zum E-Government-Gesetz, warum ist es besonders interessant in Bezug auf GPM?",
+      "back": "- Elektronische Vorgangsbearbeitung (Fristverkürzung erst 2031 jetzt 2025)\n- Verpflichtung zur Prozessoptimierung in Landesbehörden in Hinsicht auf elektronische Bearbeitung\n= schreibt Prozessoptimierung gesetzlich vor",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751807624897,
+      "front": "Was hat sich von der ersten zur zweiten Fassung des E-Gov Gesetzes für Prozesse grundlegend geändert?",
+      "back": "1.Fassung: Prozesse sollten VOR Einführung dokumentiert, analysiert und optimiert werden\n+ es gab viele Ausnahmeregelungen z.B. für Schulämter\n2.Fassung: ZUR Einführung ... \n- keine ewige Planungsphase, sondern parallel optimieren, dokumentieren & umsetzen\n- ermöglicht iteratives Vorgehen und iterative Betrachtung von Technik- und Fachprozessen\n+ keine Ausnahmeregelungen",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751807996607,
+      "front": "Was ist LeiKa, was ist FIM?",
+      "back": "- LeiKa = LeistungsKatalog aller Verwaltungsdienstleistungen\n- FIM = Föderales InformationsManagement\n- FIM-Portal als Nachfolger von LeiKa\n- FIM Bildet die Basis für das OZG\n- Ab 2017 Anwendung des IT-Planungsrats\n- standardisierte Informationen für Verwaltungsdienstleistungen\n- Aktualität der Daten\n- Für Behörden direkt nutzbar und juristisch geprüft\n- Erweitert LeiKa um Daten und Prozesse",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751808614711,
+      "front": "Nenne die 3 Bausteine des Föderalen InformationsManagements (FIM):",
+      "back": "1. Leistungen (Standardbeschreibungen)\n2. Datenfelder (Standardformulare)\n3. Prozesse (Stammprozesse)\n- Bibliotheken: zentrale Bereitstellung von Vorlagen für alle drei Bereiche",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751809000383,
+      "front": "Prozessfokussierung, Automatisierung, Digitalisierung und Verwaltungshandeln, geht das?",
+      "back": "- Verwaltungsakt: schwierig, aber möglich - Rechtssicherheit muss gegeben sein\n- schlichtes Verwaltungshandeln: sehr gut in Prozessen abzubilden",
+      "stackId": 1751711610023,
+      "status": false
+    },
+    {
+      "id": 1751810076900,
+      "front": "Wofür sind Wertschöpfungskettendiagramme? Was bedeutet die Pfeilrichtung? Wo gehört Marketing hin?",
+      "back": "- nichts, WKDs haben keine zeitlogische Abfolge\n(auf tieferen Ebenen von Kernprozessen kann jedoch zeitlogisch modelliert werden)\n- für Prozesslandschaften\n- in die Kernprozesse, weils halt BWL-er sind die das erfunden haben..",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751810375018,
+      "front": "Erkläre RPA an einem Beispiel:",
+      "back": "Automatisierung: Software-Bot ahmt menschliches Verhalten nach:\n- Beispiel: Bestellung\n1. Variablen definieren \n2. Programm Excel öffnen\n3. Bestellaten aus Excel automatisch einlesen\n4. Kopfgesteuerte while Schleife zur Bestellung aller Produkte \n{\n  5. Browser auf Website des Zulieferers öffnen\n  6. Bestellnummer in Suchfeld eingeben\n(dahin klicken wo der Nutzer hinklicken würde (Pixelweise Bestimmung durch vorherige Aufzeichnung)\n  7. Bestellvorgang und Zahlung abwickeln\n}",
+      "stackId": 1751711633943,
+      "status": false
+    },
+    {
+      "id": 1751810966056,
+      "front": "Wofür bracht man Vorgehensmodelle im Geschäftsprozessmanagement?",
+      "back": "- Kontrolle von Zeit, Budget und Qualität der Ergebnisse als oberstes Ziel\n- Planbarkeit von Prozessmanagement-Projekten durch definierte, strukturierte und standardisierte Vorgehensweise\n- Anwendung von Best Practices\n- Verbesserung der Kommunikation nach innerhalb des Projektes und nach außen\n- Vorgehensmodelle als Informationsquelle zur Methodik in den verschiedenen Phasen\n- Automatisierungsmöglichkeiten durch Werkzeuge",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751811360482,
+      "front": "Beschreibe das Vorgehensmodell zur Einführung von GPM in Organisationen nach Schmelzer/Sesselmann:",
+      "back": "- generell: nicht auf einzelnes Projekt bezogen, sondern auf unternehmensübergreifende Einführung\n1. Positionierung \n- Strategie & Ziele, Situation? - Stärken und Schwächen\n2. Identifizierung\n- Anforderungen, Prozesslandkarte, Process Owner festlegen\n3. Implementierung\n4. Optimierung \n- kontinuerliche Prozessverbesserung",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751811868482,
+      "front": "Beschreibe das Vorgehensmodell nach Becker/Kugeler/Rosemann zur Geschäftsprozessoptimierung und prozessorientierten Reorganisation:",
+      "back": "- Projektmanagement relevant in allen Phasen 1. Vorbereitung\n2. Ordnungsrahmen entwickeln (Prozesslandkarte)\n3. Ist-Analyse\n(4. Soll-Analyse und Prozessoptimierung\n5. Entwicklung einer prozessorientierten Aufbauorganisation\n6. Neugestaltung) - in Folien nur bis Ist gekommen",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751812464623,
+      "front": "Beschreibe das GPM Vorgehensmodell RAIL:",
+      "back": "- Projektmanagement und -steuerung + Change-Management relevant für alle Phasen\n1. Projektvorbereitung\n2. Ist-Analyse\n3. Sollkonzept\n4. Umsetzung und Integration\n5. Laufende Optimierung",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751812570746,
+      "front": "Welche Rolle hat Change-Management im RAIL Vorgehensmodell?",
+      "back": "= durchdringt alle Phasen\n- Partizipationsgrade festlegen (wen wie intensiv einbinden?)\n- Informationskanäle schaffen und sicherstellen\n- Managmentaufmerksamkeit herstellen\n- Leadership für das Projekt installieren (Verwantwortungen eindeutig regeln!)\n- Process Owner etablieren\n- Change Agents in der Übergangsphase installieren\n- Kontinuierlichen Support sicherstellen",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751812747770,
+      "front": "Was macht Change-Management als wesentlichen Erfolgsfaktor im Prozessmanagement aus?",
+      "back": "1. Visionsentwicklungs-Workshop\n2. Stakeholderanalyse (mit Partizipationsgraden: rollenbezogen, kontinuierlich pflegen)\n3. Informations- und Kommunikationsplan\n4. Partizipation (Mitarbeiterbefragungen & Workshops\n5. Leadership etablieren (Change Leader, Projektleiter, Change Agents)\n6. KVP: Kontinuierlicher VerbesserungsProzess",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751813404272,
+      "front": "Vergleiche die drei Vorgehensmodelle miteinander: nach Schmelzer/Sesselmann, nach Becker & RAIL",
+      "back": "- ähnlicher Aufbau mit unterschiedlichen Akzenten:\n1. Schmelzer/Sesselmann:\n- fokussiert sich auf gesamte Einführung in einer Organisation, nicht auf einzelne Projekte\n- daher Positionierungsphase \n2. Becker \n- trennt die Identifizierung (Schmelzer) in Ist- und Soll- Modellierung auf\n- Einführungsphase statt Fokus auf kontinuierlicher Optimierung\n3. RAIL\n- Fokus auf Change Management\n- kein Ordnungsrahmen, aber laufende Optimierung",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751816278834,
+      "front": "Beschreibe das Vorgehen in der Vorbereitungshpase von Prozessmodellierungsprojekten:",
+      "back": "1. Identifikation und Auswahl relevanter Perspektiven\n2. Festlegung der Kommunikationswege\n---\n3. Auswahl der Modellierungssprache\n4. Spezifikation von Modellierungskonventionen (perspektivenspezifisch)\n6. Auswahl und Customizing des Modellierungswerkzeugs\n---\n7. Beschreibung der organisatorischen Rahmenbedingungen\n8. Erstellung und Verwendung eines Modellierungsstandards",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751816469829,
+      "front": "Was ist die Modellierungsperspektive? Beschreibe verschiedene Rollenperspektiven:",
+      "back": "= Modellierungszweck + Rollen der Projektbeteiligten\n1. Planners View\n2. Business Owners View\n3. Architects View\n4. Designers View\n5. Builders View",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751816692752,
+      "front": "Wieso ist die Auswahl von Kommunikationswegen wichtig für Prozessmodellierungsprojekte? Nenne Beispiele für Kommunikationswege:",
+      "back": "= Wissensmanagement (wichtig: kontinuierliche Pflege)\n- Plots & Whiteboards\n- Handbücher: Prozessanweisungen & Arbeitsanweisungen\n(werden noch häufig genutzt, da die Akzeptanz höher ist)\n- Intranet als zentraler Zugriffpunkt für Modellierungen",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751817163680,
+      "front": "Verbinde die Sichten des ARIS-Konzepts mit den verschiedenen Modellierungstechniken:",
+      "back": "= Architektur integrierter Informationssysteme\n- Haus aus 5 Sichten\n- Dach: \n1. Organisationssicht - Organigramme\n- 3 Säulen\n2. Datensicht - Dokumente und IT-Systeme\n3. Steuerungssicht - Ereignisgesteuerte Prozessketten (Zentral)\n4. Funktionssicht - Funktionsbäume\n- Fundament: \n5. Leistungssicht - Leistungen",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751817251877,
+      "front": "Was beinhaltet ein Konventionenhandbuch zur Beschreibung von Geschäftsprozessen?",
+      "back": "- Modellierungsebenen und Granularität\n- Regelungen zu Prozessschnittstellen\n- Methodenbeschränkungen und Filtervorgaben\n- Benennungen\n- Metadaten",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751817371890,
+      "front": "Was sind die Anforderungen an ein Modellierungswerkzeug?",
+      "back": "- Integrierte Modellierungssprachen\n- Datenbankunterstützung\n- Mehrbenutzerfähigkeit\n- Zusatzkomponenten und Schnittstellen\n- Automatisierungsmöglichkeiten\n- Preis\n- Benutzerfreundlichkeit\n- Support, vorhandenes Know-How (der Mitarbeiter) und Schulungsangebote",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751817630968,
+      "front": "Welche möglichen Informationen werden in der Ist-Aufnahme erhoben?",
+      "back": "1. Unternehmensdaten (Rechtsform, Umsatz, Mitarbeiteranzahl, Termintreue, Auslastung usw.)\n2. Ablauforganisation (formale und informelle Informationsflüsse, Erfassung von Hilfsmitteln - Daten, schon vorhandene Prozessdarstellungen)\n3. Mengengerüste und Kennzahlen (Basis für Prognose, Hinweise für organisatorische und technische Gestaltung)\n4. Aufbauorganisation (Organisationsdiagramme, Stellenbeschreibungen)\n5. Derzeitiger Einsatz von Informationssystemen (Architektur, Datenbanken, Software usw.)",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751817886935,
+      "front": "Nenne die Erhebungsmethoden der Ist-Aufnahme:",
+      "back": "1. Primärerhebung\n- Interviews\n- Fragebogen\n- Fokusgruppen / Workshops\n- Beobachtung\n2. Sekundärerhebung\n- Inventurmethode (Dokumentenanalyse, Analyse der Infosysteme)\n3. Automatische Verfahren\n- Auto-ID-Verfahren\n- Process Mining (z.B. Logfiles auslesen)",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751818283886,
+      "front": "Nenne die 3 Ebenen der zentralen Steuerungssicht des ARIS-Konzepts:",
+      "back": "Ebene 1: \n- Ziel: Gliederung (Struktur der Kernprozesse)\n- Methode: WKD\nEbene 2: \n- Ziel: (Ablauf-)Steuerung (Vernetzung, interne Austauschbeziehungen)\n- Methode: eEPK\nEbene 3: \n- Ziel: Detailliertes Prozess-Know-How + Metainfos\n- Methode: eEPK + detaillierte Textbeschreibungen \n=> zusammenfließen der Detailinfos zu den Prozessen aus allen Sichten",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751818426939,
+      "front": "Aus welchen 3 Schritten besteht die Ist-Analyse?",
+      "back": "1. Ist-Aufnahme (Erfassung des Ist-Zustands) - Geeignete Methoden\n2. Dokumentation (Darstellung des Ist-Zustands) - Geeignete Modelle\n3. Potenzialanalyse (Analyse des Ist-Zustands) - Geeignete Priorisierung",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751818956489,
+      "front": "Welche Interview-Varianten gibt es?",
+      "back": "1. Schriftlich (auch per Mail)\n2. Mündlich (In Persona, Telefon, Videokonferenz)\n  - Freies Gespräch (unstrukturiert, hoher Auswertungsaufwand)\n! - Freies Interview (nur grober Rahmen, hoher Auswertungsaufwand)\n! - Standardisiertes Interview (Vorstrukturierung, bessere Auswertung und Vergleichbarkeit)\n - Standardisiertes Interview mit geschlossenen Multiple-Choice-Fragen (wie mündlicher Fragebogen)",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751819359152,
+      "front": "Beschreibe Offene und Geschlossene Fragen:",
+      "back": "1. Offene Fragen \n- offener Antwortraum, W-Fragen \n- gut geeignet für Interviews\n- Vorsicht bei Warum-Fragen (Eindruck man müsse sich rechtfertigen)\n2. Geschlossene Fragen\n- es kann nur mit Ja, Nein (Alternativfrage) \n- oder vorgegebenen Alternativen (Selektivfrage) geantwortet werden",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751819568278,
+      "front": "Welche Einsatzmöglichkeiten gibt es für die verschiedenen Fragetypen?",
+      "back": "- Offene Fragen: Informationsbeschaffung, Meinungen/Einstellungen erfragen\n- Geschlossene Fragen: Absichern von Entscheidungen, Klärungen, Kontrollieren\n- Alternativfragen: Beratung, Mitentscheidung, Mitverantwortung des Gesprächspartners\n- Kettenfragen: Flexibilität oder Unsicherheit signalisieren \n- Suggestivfragen: Absichern gemeinsamer Erlebnisse\n- Zirkuläre Fragen: Kreativitättechnik, zum Nachdenken anregen",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751819856893,
+      "front": "Was sind Kettenfragen, Suggestiv-Fragen und Zirkuläre Fragen?",
+      "back": "- Ketten: Aneinanderreihung von Fragen\n- Suggestiv: Fragestellung beeinflusst Antwort - vorbestimmter Aussageinhalt\n- Zirkulär: Was wäre wenn-Fragen",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751819904061,
+      "front": "Welche Erhebungsmethoden werden bis dato häufig als Mittel der wahl beei der Ist-Aufnahme von Prozessen gesehen?",
+      "back": "Interviews und Workshops",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751820036282,
+      "front": "Nenne Vor- und Nachteile von Interviews",
+      "back": "Vorteile:\n- direkte Beteiligung der Mitarbeiter (hohe Akzeptanz)\n- Flexibilität\n- Abbau negativer Einstellungen möglich (Change Management)\n- Unklarheiten können direkt aufgelöst werden\nNachteile:\n- qualifizierter Interviewer notwendig\n- zeitaufwändig und kostenintensiv\n- starke Beeinflussung des Betreibsablaufs\n- oft subjektiv",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751820364254,
+      "front": "Gib Infos zu Fragebögen?",
+      "back": "- schriftlich, online oder per Mail\n- sollten beantwortbar, eindeutig, vollständig und verständlich sein\n- sind formal und haben eine festgelegte Bearbeitungszeit\nbei Konzeption beachten:\n- Vermeidung von Suggestivfragen\n- sinnvolle Reihenfolge der Fragen\n- übergeordnete Sachverhalte berücksichtigen, damit Antworten nicht verfälscht werden",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751820583509,
+      "front": "Nenne Vor- und Nachteile von Fragebögen in der Ist-Aufnahme:",
+      "back": "Vorteile:\n- Schnelle und gleichzeitige Aufnahme des Ist-Zustands\n- relativ kostengünstig\n- Anonymität gewährleistet objektive Antworten\n- Befragung vieler Personen in kurzem Zeitraum möglich\nNachteil:\n- geringe Flexibilität (vertiefende Zusatzfragen und Unklarheiten nicht direkt auflösbar)\n- verstärkte Manipulationsmöglichkeit",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751820690630,
+      "front": "Was ist eine Fokusgruppe?",
+      "back": "- Diskussion von 6-10 Personen unter Anleitung eines Moderators über ein definiertes Thema\n- Diskussion auf Basis eines vordefinierten Leitfadens\n- Gruppe nach vorab genau definierten Kriterien zusammengesetzt\n- können insbesondere die Behebung von Schwachstellen und mögliche Verbesserungen aufzeigen",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751820845996,
+      "front": "Was sind Vor- und Nachteile von Fokusgruppen?",
+      "back": "Vorteile: \n- Möglichkeit zu vertiefenden Diskussionen (viele Meinungen auf einmal bekommen)\n- kreativitätsfördernd (Austausch mit anderen, Schneeball-Effekt)\n- Nähe zu Mitarbeitern: Moderator erlebt Diskussion direkt und bekommt so ein lebendigeres Bild der Anforderungen und der unterschiedlichen Interessenlagen\nNachteile:\n- Aufwändig in Vorbereitung und Durchführung\n- Hohe Anforderungen an Moderator\n- nur für spezifische Frage- und Aufgabenstellungen geeignet",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751821128252,
+      "front": "Welche verschiedenen Methoden der Beobachtung gibt es in der Ist-Aufnahme?",
+      "back": "1. Zeitstudie\n- klassische Stoppuhrmethode, eignet sich bei repetitiven Aufgaben \n- sehr niedrige Akzeptanz\n2. Selbstbeobachtung\n- hohe Akzeptanz, aber wahrheitsgemäßen Angaben fragwürdig\n3. Activity Sampling \n- Mitarbeiter notieren über einen gewissen Zeitraum Aktivitäten mit exakt definierten Zeitpunkten",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751821279370,
+      "front": "Nenne Vor- und Nachteile von der Methode Beobachtung in der Ist-Aufnahme:",
+      "back": "Vorteile:\n- Arbeitsablauf wird nicht behindert\n- Vorteilhaft bei Ermittlung von Arbeitsauslastungen, Vorgabe- und Durchlaufzeiten, Fehlerquellen und Auswirkungen von Umwelteinflüssen\n- geringer Zeitaufwand für Organisation, die Beobachtung beauftragt hat\nNachteile:\n- hoher Zeitaufwand für Prozessmanager, der Beobachtungsposten nicht verlassen darf\n- teilweise sehr subjektiv - indirekte Bewertung durch Beobachter\n- bei Selbstbeobachtung: leicht manipulierbar \n-",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751821365651,
+      "front": "Was ist die Inventurmethode?",
+      "back": "- umfasst das Studium schriftlich fixierter Unterlagen (Dokumentenanalyse) \n- sammeln von Daten und Informationen\n- kann am Arbeitsplatz während der Arbeitszeit oder außerhalb erfolgen\n- erfolgt durch Aufnahme-Team\n- eignet sich besonders für die Aufnahme von Mengengerüsten\n-",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751821458694,
+      "front": "Nenne Vor- und Nachteile der Inventurmethode:",
+      "back": "Vorteile:\n- Wenig Störung im Betriebsablauf\n- Gute Erfassung von Mengengerüsten\n- Objektive Aussagen\n- Relativ kostengünstig\nNachteile:\n- Datenfluss und Prozessablauf schwer erfassbar\n- Gültigkeit für die Zukunft unsicher\n- Qualität hängt stark von der Aktualität und Relevanz der zur Verfügung stehenden Daten ab\n- kein Abbau negativer Einstellung der Belegschaft möglich (kein Kontakt)",
+      "stackId": 1751711618416,
+      "status": false
+    },
+    {
+      "id": 1751821615984,
+      "front": "Was ist Process-Mining mit Event-Logs? Nenne Vor- und Nachteile:",
+      "back": "= automatisiertes Data Mining zu Prozessen mit Event-Logs (Zeitstempel)\nVorteile:\n- Reduzierung des Aufwands für Erhebung und Pflege\n- Änderungen des Prozessablaufs werden sehr schnell erfasst\nNachteile:\n- Fokussierung auf ein Anwendungssystem, obowhl Prozesse mehrer Systeme verbinden\n- Hoher Aufwand für die Konfiguration der Event Logs\n- Notwendigkeit eines tiefen Prozessverständnisses\n- Keine Auswertung von Daten außerhalb der Applikation möglich",
+      "stackId": 1751711618416,
+      "status": false
+    }
+  ],
+  "exportDate": "2025-07-06T17:07:14.039Z"
+}
